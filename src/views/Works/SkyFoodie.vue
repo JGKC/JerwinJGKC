@@ -9,15 +9,21 @@
 
         <section class="py-[80px] font-['Quicksand']">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
-                <div class="w-[90%] m-auto">
-                    <div class="mb-4 w-full md:w-[65ch]">
-                        Ecozean Isalnd is an eco-friendly and self-sustainable island that helps rid pollution in the ocean.
-                        Members of the publix are able to ...
+                <div class="w-[90%] m-auto flex justify-between flex-wrap gap-10">
+                    <div>
+                        <div class="mb-4 w-full md:w-[65ch]">
+                            SkyFoodie is a Web Game Application that raise awareness for students from 9 to 12 years old 
+                            (Primary 3 to 6) about the harmful effect of junk food and choosing the healthy meals to eat. 
+                            The game objective is to avoid touching junk food and collect the healthy food.
+                        </div>
+    
+                        <div class="w-full md:w-[65ch] space-y-4">
+                            <div>Project Duration: 2 Weeks, Aug 2021</div>
+                            <Softwares Ai Xd VSCode HTML CSS JS></Softwares>
+                        </div>
                     </div>
-
-                    <div class="w-full md:w-[65ch] space-y-4">
-                        <div>Project Duration: 2 Weeks, Aug 2021</div>
-                        <Softwares Ai Xd VSCode HTML CSS JS></Softwares>
+                    <div class="border-2 border-green-500 lg:max-w-[560px] w-full">
+                        <iframe width="100%" class="aspect-video" src="https://www.youtube.com/embed/p6_aJUXHaTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
                 

@@ -9,16 +9,21 @@
 
         <section class="py-[80px] font-['Quicksand']">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
-                <div class="w-[90%] m-auto">
-                    <div class="mb-4 w-full md:w-[65ch]">
-                        Ecozean is a fiticous eco-friendly and self-sustainable Island that combats the ocean pollution.
-                        Public Visitors visit the island for educational pruposes, to understand Ecozean's purpose and 
-                        learn alternative ways to help with the ocean poullution issue.
+                <div class="w-[90%] m-auto flex flex-wrap justify-between">
+                    <div>
+                        <div class="mb-4 w-full md:w-[65ch]">
+                            Ecozean is a fiticous eco-friendly and self-sustainable Island that combats the ocean pollution.
+                            Members of the public are able to visit the island for educational pruposes, to understand Ecozean's purpose and 
+                            learn alternative ways to help with the ocean poullution issue.
+                        </div>
+    
+                        <div class="w-full md:w-[65ch] space-y-4 ">
+                            <div>Project Duration: 2 Weeks, Aug 2021</div>
+                            <Softwares Ai Ps Xd VSCode HTML CSS JS></Softwares>
+                        </div>
                     </div>
-
-                    <div class="w-full md:w-[65ch] space-y-4 ">
-                        <div>Project Duration: 2 Weeks, Aug 2021</div>
-                        <Softwares Ai Ps Xd VSCode HTML CSS JS></Softwares>
+                    <div class="border-2 border-green-500 lg:max-w-[560px] w-full">
+                        <iframe width="100%" class="aspect-video" src="https://www.youtube.com/embed/yfh4FjSgKpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
                 

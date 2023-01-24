@@ -24,7 +24,7 @@
 					>Download Resume</a>
 				</div>
 				<div>
-					<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%]">
+					<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%] shadow-md shadow-green-200">
 						<img src="@/assets/Jerwin.jpg" alt="Jerwin">
 					</div>
 				</div>
