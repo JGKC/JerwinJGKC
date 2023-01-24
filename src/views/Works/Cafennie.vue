@@ -11,8 +11,7 @@
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
                 <div class="w-[90%] m-auto">
                     <div class="mb-4 w-full md:w-[65ch]">
-                        Ecozean Isalnd is an eco-friendly and self-sustainable island that helps rid pollution in the ocean.
-                        Members of the publix are able to ...
+                        Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses.
                     </div>
                     <div class="w-full md:w-[65ch] space-y-4">
                         <div>Project Duration: 7 Days, July 2022</div>

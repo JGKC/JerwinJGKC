@@ -18,7 +18,7 @@
                         </div>
     
                         <div class="w-full md:w-[65ch] space-y-4">
-                            <div>Project Duration: Oct 2021 - Feb 2022</div>
+                            <div>Project Duration: Apr 2021 - Aug 2021</div>
                             <Softwares Ai Xd VSCode HTML CSS JS></Softwares>
                         </div>
                     </div>
