@@ -1,0 +1,120 @@
+<template>
+	<section id="contact01" class="w-full h-[200vh] lg:h-[100vh]">
+		<div class="w-full max-w-[1440px] m-auto grid grid-cols-1 lg:grid-cols-2">
+
+		
+		<div class="sticky top-0 left-0 h-[100vh]">
+			<div class="w-full max-w-[1440px] m-auto flex flex-col lg:flex-row">
+				<div class="w-[90%] m-auto">
+					<div class="w-[80%]">
+						<TitleHead titleHead="HAPPY TO HEAR FROM YOU!" titleSub="CONTACTS PAGE" />
+					</div>
+					<div class="bg-[#ffffff40] rounded-[5px] p-[20px] text-[1em] font-[quicksand] font-medium space-y-4 mt-20">
+						<div>
+							<b>For Official Collaboration and/or Busniess Offers:</b><br> 
+							Please contact me through Email or direct message in Twitter. 
+						</div>
+						<div><b>Location:</b> Based in Singapore</div>
+						<div><b>Available Contact Hours:</b> 12PM - 5PM (SGT/GMT+8)</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg-white h-[100vh] grid place-items-center">
+				<div class="w-[80%]">
+					<div class="text-[2em] font-bold font-['Montserrat']">CONTACT FORM</div>
+					<form class="space-y-4" @submit="">
+						<div class="flex flex-col">
+							<label for="name" class="mb-1">Name</label>
+							<input id="name" name="name" type="text" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Name"/>
+						</div>
+						<div class="flex flex-col">
+							<label for="email" class="mb-1">Email</label>
+							<input id="email" name="email" type="email" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Email"/>
+						</div>
+						<div class="flex flex-col">
+							<label for="subject" class="mb-1">Subject</label>
+							<select name="subject" id="subject" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+								<option value="" selected disabled>Please Select a Subject</option>
+								<option value="fluff">Just Saying Hi!!!</option>
+								<option value="work">Working Oppotunties</option>
+								<option value="enquires">Enquires</option>
+							</select>
+						</div>
+						<div class="flex flex-col">
+							<label for="message" class="mb-1">Message</label>
+							<textarea name="message" id="message" cols="" rows="5" required fixed class="resize-none relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"></textarea>
+						</div>
+						<div>
+							<button type="submit" class="mt-4 relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+								Send Message!
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-green-100">
+		<KeepInTouch></KeepInTouch>
+	</section>
+</template>
+
+<script>
+import KeepInTouch from '../components/KeepInTouch.vue';
+import TitleHead from '../components/TitleHead.vue'
+
+	export default{
+		components: { TitleHead, KeepInTouch },
+		data(){
+			return{
+				socials: [
+					{
+						platform: 	"email",
+						icon:		"fa-solid fa-envelope",
+						display:	"jerwingoh.work@gmail.com",
+						link:		"mailto:jerwingoh.work@gmail.com"
+					},
+					{
+						platform: 	"linkedin",
+						icon:		"fa-brands fa-linkedin-in",
+						display:	"Jerwin Goh -JGKC",
+						link:		"https://www.linkedin.com/in/jerwinjgkc/"
+					},
+					{
+						platform: 	"behance",
+						icon:		"fa-brands fa-behance",
+						display:	"Jerwin Goh -JGKC",
+						link:		"https://www.behance.net/jerwingoh-jgkc"
+					},
+					{
+						platform: 	"instagram",
+						icon:		"fa-brands fa-instagram",
+						display:	"@jgkc_design",
+						link:		"https://www.instagram.com/jgkc_design"
+					},
+					{
+						platform: 	"twitter",
+						icon:		"fa-brands fa-twitter",
+						display:	"@Jerwin_JGKC",
+						link:		"https://twitter.com/Jerwin_JGKC"
+					},
+
+				]
+
+
+
+			}
+		}
+	}
+</script>
+
+<style>
+.full-bleed {
+	box-shadow: 0 0 0 100vmax #dcfce7 ;
+	z-index:-1;
+	clip-path: inset(0 -100vmax); 
+  }
+</style>
