@@ -89,7 +89,7 @@ export default{
                 {
                     id: "1",
                     title: "Ecozean", 
-                    img: "./src/assets/works/Ecozean/Preview.png", 
+                    img: "@/assets/works/Ecozean/Preview.png", 
                     tags: ["Frontend","UX"],
                     description: "Ecozean is a fiticous eco-friendly Island for combating the ocean pollution.",
                     link: "/Works/Ecozean"
@@ -97,7 +97,7 @@ export default{
                 {
                     id: "2",
                     title: "The Hidden Heritage",
-                    img: "./src/assets/works/THH/Preview.png",
+                    img: "@/assets/works/THH/Preview.png",
                     tags: ["Frontend", "Backend"],
                     description: "The Hidden Heritage is a Forum Webpage that brings discussions to the Sinagpore Heritage.",
                     link: "/Works/THH"
@@ -105,7 +105,7 @@ export default{
                 {
                     id: "3",
                     title: "Sky Foodie",
-                    img: "./src/assets/works/SkyFoodie/Preview.png",
+                    img: "@/assets/works/SkyFoodie/Preview.png",
                     tags: ["Frontend"],
                     description: "Sky Foodie is a Web Game Application that raises awareness choosing healthy eating.",
                     link: "/Works/SkyFoodie"
@@ -113,7 +113,7 @@ export default{
                 {
                     id: "4",
                     title: "Intro to Weiqi",
-                    img: "./src/assets/works/IntroToWeiqi/Preview.png",
+                    img: "@/assets/works/IntroToWeiqi/Preview.png",
                     tags: ["Frontend"],
                     description: "Intro to Weiqi is a Web Application for people who are interested in learning in Weiqi (Go).",
                     link: "/Works/IntroWeiqi"
@@ -121,7 +121,7 @@ export default{
                 {
                     id: "5",
                     title: "SizGrill",
-                    img: "./src/assets/works/SizGrill/Preview.png",
+                    img: "@/assets/works/SizGrill/Preview.png",
                     tags: ["Branding","Graphic"],
                     description: "SizGrill is a conceptual Restaurant Brand that provides customers with grilled food.",
                     link: "/Works/SizGrill"
@@ -129,7 +129,7 @@ export default{
                 {
                     id: "6",
                     title: "Asian Completionist",
-                    img: "./src/assets/works/AsianCompletionist/Preview.png",
+                    img: "@/assets/works/AsianCompletionist/Preview.png",
                     tags: ["Graphic"],
                     description: "Asian Completionist is a conceptual book design based a Malaysian Artist, Namewee.",
                     link: "/Works/AsianCompletionist"
@@ -137,7 +137,7 @@ export default{
                 {
                     id: "7",
                     title: "Cafennie",
-                    img: "./src/assets/works/AsianCompletionist/Preview.png",
+                    img: "@/assets/works/AsianCompletionist/Preview.png",
                     tags: ["UX","UI","App"],
                     description: "Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses. ",
                     link: "/Works/Cafennie"
@@ -145,7 +145,7 @@ export default{
                 {
                     id: "8",
                     title: "Meditime",
-                    img: "./src/assets/works/AsianCompletionist/Preview.png",
+                    img: "@/assets/works/AsianCompletionist/Preview.png",
                     tags: ["UX","UI","App"],
                     description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
                     link: "/Works/Meditime"

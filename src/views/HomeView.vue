@@ -1,11 +1,11 @@
 <template>
   	<div class="flex flex-col">
     	<!-- section 1 -->
-    	<section id="home01" class="h-[100vh] w-full font-['Quicksand'] text-center grid place-items-center">
+    	<section id="home01" class="h-[100vh] w-full font-['Quicksand'] text-center grid p-10">
 			<div class="w-full max-w-[1440px] m-auto">
-				<div class="grid grid-cols-1 lg:grid-cols-3 items-center">
-					<div class="w-[50%] lg:w-full m-auto lg:mb-0 mb-20">
-						<img src="@/assets/logo-green.svg" alt="logo">
+				<div class="grid grid-cols-1 lg:grid-cols-3">
+					<div class="w-[80%] m-auto lg:mb-0 mb-20">
+						<img src="@/assets/logo-green.svg" alt="logo" style="width:100%">
 					</div>
 					<div class="col-span-2">
 						<div id="hero" class="leading-10 mb-4 lg:leading-[4em]">
