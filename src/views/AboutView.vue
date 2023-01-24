@@ -8,7 +8,7 @@
 
     <section class="w-full py-[80px]">
 		<div class="w-full max-w-[1440px] m-auto ">
-			<div class="w-[90%] m-auto font-['Quicksand'] grid grid-cols-1 md:grid-cols-2">
+			<div class="w-[90%] m-auto font-['Quicksand'] flex flex-wrap gap-10 justify-between items-center">
 				<div>
 					<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
 					<div class="md:w-[65ch] mb-4">
@@ -24,7 +24,9 @@
 					>Download Resume</a>
 				</div>
 				<div>
-
+					<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%]">
+						<img src="@/assets/Jerwin.jpg" alt="Jerwin">
+					</div>
 				</div>
 			</div>
 		</div>

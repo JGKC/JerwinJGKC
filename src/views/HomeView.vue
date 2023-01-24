@@ -25,14 +25,21 @@
 		<!-- section 2- Introduction -->
 		<section class="py-[80px]">
 			<div class="w-full max-w-[1440px] m-auto">
-				<div class="w-[90%] m-auto">
-					<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
-					<div class="w-full lg:w-[65ch] mb-4 font-[Quicksand]">
-						Currently a Student studying Interaction Design in Nanyang Polytechnic. 
-						I enjoy design and code websites and mobile applications. I believe that 
-						good designs bring the best expression of the products to the users.
+				<div class="w-[90%] m-auto flex justify-between flex-wrap  gap-10 items-center">
+					<div>
+						<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
+						<div class="w-full lg:w-[65ch] mb-4 font-[Quicksand]">
+							Currently a Student studying Interaction Design in Nanyang Polytechnic. 
+							I enjoy design and code websites and mobile applications. I believe that 
+							good designs bring the best expression of the products to the users.
+						</div>
+						<RouterBtn link="/About" cta="Learn More" class="md:w-[250px]"></RouterBtn>
 					</div>
-					<RouterBtn link="/About" cta="Learn More" class="md:w-[250px]"></RouterBtn>
+					<div>
+						<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%]">
+							<img src="@/assets/Jerwin.jpg" alt="Jerwin">
+						</div>
+					</div>
 				</div>
 			</div>
     	</section>
