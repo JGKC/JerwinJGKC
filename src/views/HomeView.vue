@@ -112,8 +112,8 @@ import KeepInTouch from '../components/KeepInTouch.vue'
 import RouterBtn from '../components/RouterBtn.vue'
 import Softwares from '../components/works/Softwares.vue'
 
-import Ecozean from "@/assets/works/Ecozean/preview.png"
-import THH from "@/assets/works/THH/preview.png"
+import Ecozean from "@/assets/works/Ecozean/Rreview.png"
+import THH from "@/assets/works/THH/Preview.png"
 
 export default{
 	components:{ KeepInTouch, RouterBtn, Softwares },
