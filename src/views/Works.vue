@@ -10,11 +10,11 @@
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
 
                 <!-- Filter -->
-                <div class="w-[90%] mx-auto my-[20px] h-fit p-[20px] rounded-[5px] bg-gray-200 flex flex-wrap">
-                    <div class="text-[24px] font-bold mr-[20px]">FILTER</div>
+                <div class="w-[90%] mx-auto my-[20px] h-fit p-[20px] rounded-[5px] bg-gray-200 flex flex-wrap gap-4">
+                    <div class="text-[24px] font-bold">FILTER</div>
 
-                    <div class="filter">
-                        <div v-for="(tag) in tags" class="inline-flex items-center mr-[10px] last:mb-0 mb-4 lg:mb-0 font-[Quicksand]">
+                    <div class="filter flex flex-wrap gap-2">
+                        <div v-for="(tag) in tags" class="inline-flex items-center font-[Quicksand]">
                             <input @change="updateFilter" v-model="checkedWorks" type="checkbox" :name="tag.tag" :id="tag.tag" :value="tag.class">
                             <label :for="tag.tag" :class="tag.class" class="cursor-pointer">{{tag.tag}}</label>
                         </div>
@@ -137,7 +137,7 @@ export default{
                 {
                     id: "7",
                     title: "Cafennie",
-                    img: "./src/assets/works/AsianCompletionist/Preview.png",
+                    img: "./src/assets/works/Cafennie/Preview.png",
                     tags: ["UX","UI","App"],
                     description: "Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses. ",
                     link: "/Works/Cafennie"
@@ -145,7 +145,7 @@ export default{
                 {
                     id: "8",
                     title: "Meditime",
-                    img: "./src/assets/works/AsianCompletionist/Preview.png",
+                    img: "./src/assets/works/Meditime/Preview.png",
                     tags: ["UX","UI","App"],
                     description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
                     link: "/Works/Meditime"

@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="Ecozean/Preview.png"
+            imageURL="Cafennie/Preview.png"
             titleHeader="CAFENNIE"
             titleSubHeader="UI / UX, 2022"
         ></ProjectHero>
@@ -29,7 +29,7 @@
                     
                     <div v-for="img in gallery">
                         <div class="aspect-video bg-green-100 shadow-md border-2 border-green-400">
-                            <img :src="'../../assets/works/THH/'+img.src" :alt=img.alt class="">
+                            <img :src="img.src" :alt=img.alt class="">
                         </div>
                     </div>
                 </div>
@@ -46,11 +46,17 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import ProjectInfo from '../../components/works/ProjectInfo.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
+import Image1 from "@/assets/works/Cafennie/image1.png"
+
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
     data(){
         return{
             gallery:[
+                {
+                    src: Image1,
+                    alt: "image"
+                },
                 {
                     src: "",
                     alt: "image"

@@ -1,6 +1,6 @@
 <template>
     <div class="worksCard w-full min-h-[350px] rounded-[10px] overflow-hidden bg-[#fff] shadow-lg transition-opacity relative" @mouseover="cardHover" @mouseleave="cardHover2">
-        <div class="w-full aspect-video bg-yellow-100">
+        <div class="w-full aspect-video bg-yellow-100 overflow-hidden">
             <img :src=img alt="Preview Image">
         </div>
         <div class="py-[15px] px-[10px] font-[Quicksand]">
@@ -9,7 +9,7 @@
             <!-- Tags -->
             <div class="mb-2">
                 <div v-for="tag in tags" class="inline-block worksTag">
-                    <div class="text-[12px] uppercase p-[5px] bg-[#ccc] rounded-[5px] mr-[5px]">{{tag}}</div> 
+                    <div class="text-[12px] uppercase p-[5px] bg-gray-200 rounded-[5px] mr-[5px] font-bold">{{tag}}</div> 
                 </div>
             </div>
             <!-- Description -->
