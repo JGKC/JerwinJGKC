@@ -47,7 +47,7 @@
 import TitleHead from '../../components/TitleHead.vue';
 import ProjectHero from '../../components/works/ProjectHero.vue';
 import ProjectInfo from '../../components/works/ProjectInfo.vue';
-import Softwares from '../../components/works/softwares.vue'
+import Softwares from '../../components/works/Softwares.vue'
 
 import Image1 from '@/assets/works/SkyFoodie/image1.png'
 import Image2 from '@/assets/works/SkyFoodie/image2.png'
