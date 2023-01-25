@@ -9,7 +9,7 @@
 
         <section class="py-[80px] font-['Quicksand']">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
-                <div class="w-[90%] m-auto flex flex-wrap justify-between">
+                <div class="w-[90%] m-auto flex flex-wrap justify-between gap-10">
                     <div>
                         <div class="mb-4 w-full md:w-[65ch]">
                             Ecozean is a fiticous eco-friendly and self-sustainable Island that combats the ocean pollution.
@@ -111,6 +111,19 @@
             </div>
         </section>
 
+        <section class=" bg-teal-100">
+            <div class="w-full max-w-[1440px] m-auto">
+                <div class="w-[90%] m-auto">
+                    <div class="flex justify-between ">
+                        <router-link to="/works/Meditime" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> Meditime</router-link>
+                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                        <router-link to="/works/THH" class="block p-4 text-black">THH <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
+                    </div>
+                    <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                </div>
+            </div>
+        </section>
+
     </div>
 </template>
 
@@ -120,7 +133,10 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
 import Preview from "@/assets/works/Ecozean/Preview.png"
-import image1 from "@/assets/works/Ecozean/image1.png"
+import Image1 from "@/assets/works/Ecozean/image1.png"
+import Image2 from "@/assets/works/Ecozean/image2.png"
+import Image3 from "@/assets/works/Ecozean/image3.png"
+import Image4 from "@/assets/works/Ecozean/image4.png"
 
 
 export default{
@@ -129,20 +145,24 @@ export default{
         return{
             gallery:[
                 {
-                    src: image1,
+                    src: Image1,
                     alt: "overview image"
                 },
                 {
                     src: Preview,
                     alt: "preview image"
                 },
+                // {
+                //     src: Image2,
+                //     alt: "about image"
+                // },
                 {
-                    src: "",
-                    alt: "image"
+                    src: Image3,
+                    alt: "features image"
                 },
                 {
-                    src: "",
-                    alt: "image"
+                    src: Image4,
+                    alt: "error404 image"
                 },
             ],
             acknowlegdement:[

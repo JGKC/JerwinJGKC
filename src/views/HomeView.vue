@@ -25,7 +25,7 @@
 		<!-- section 2- Introduction -->
 		<section class="py-[80px]">
 			<div class="w-full max-w-[1440px] m-auto">
-				<div class="w-[90%] m-auto flex justify-between flex-wrap  gap-10 items-center">
+				<div class="w-[90%] m-auto grid grid-cols-1 md:grid-cols-2 justify-between flex-wrap  gap-10 items-center">
 					<div>
 						<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
 						<div class="w-full lg:w-[65ch] mb-4 font-[Quicksand]">

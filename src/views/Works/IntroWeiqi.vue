@@ -44,6 +44,19 @@
                 <!-- <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div> -->
             </div>
         </section>
+
+        <section class=" bg-teal-100">
+            <div class="w-full max-w-[1440px] m-auto">
+                <div class="w-[90%] m-auto">
+                    <div class="flex justify-between ">
+                        <router-link to="/works/SkyFoodie" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> SkyFoodie</router-link>
+                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                        <router-link to="/works/SizGrill" class="block p-4 text-black">SizGrill <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
+                    </div>
+                    <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                </div>
+            </div>
+        </section>
     </div>
 
 

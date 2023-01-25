@@ -11,8 +11,7 @@
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
                 <div class="w-[90%] m-auto">
                     <div class="mb-4 w-full md:w-[65ch]">
-                        Ecozean Isalnd is an eco-friendly and self-sustainable island that helps rid pollution in the ocean.
-                        Members of the publix are able to ...
+                        Meditime is an app that keeps track of medications and reminders to take medication on time.
                     </div>
                     <div class="w-full md:w-[65ch] space-y-4">
                         <div>Project Duration: 7 Days, July 2022</div>
@@ -35,6 +34,19 @@
                     </div>
                 </div>
                 <!-- <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div> -->
+            </div>
+        </section>
+
+        <section class=" bg-teal-100">
+            <div class="w-full max-w-[1440px] m-auto">
+                <div class="w-[90%] m-auto">
+                    <div class="flex justify-between ">
+                        <router-link to="/works/Cafennie" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> Cafennie</router-link>
+                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                        <router-link to="/works/Ecozean" class="block p-4 text-black">Ecozean <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
+                    </div>
+                    <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                </div>
             </div>
         </section>
 

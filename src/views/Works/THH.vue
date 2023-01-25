@@ -90,6 +90,19 @@
             </div>
         </section>
 
+        <section class=" bg-teal-100">
+            <div class="w-full max-w-[1440px] m-auto">
+                <div class="w-[90%] m-auto">
+                    <div class="flex justify-between ">
+                        <router-link to="/works/Ecozean" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> Ecozean</router-link>
+                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                        <router-link to="/works/SkyFoodie" class="block p-4 text-black">SkyFoodie <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
+                    </div>
+                    <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                </div>
+            </div>
+        </section>
+
     </div>
 
 </template>
@@ -99,7 +112,10 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import ProjectInfo from '../../components/works/ProjectInfo.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
+import Preview from "@/assets/works/THH/image1.png"
 import Image1 from "@/assets/works/THH/image1.png"
+import Image2 from "@/assets/works/THH/image2.png"
+import Image3 from "@/assets/works/THH/image3.png"
 
 
 
@@ -111,21 +127,22 @@ export default{
             ],
             gallery: [
                 {
+                    src: Preview,
+                    alt: "image"
+                },
+                {
                     src: Image1,
                     alt: "image"
                 },
                 {
-                    src: "",
+                    src: Image2,
                     alt: "image"
                 },
                 {
-                    src: "",
+                    src: Image3,
                     alt: "image"
                 },
-                {
-                    src: "",
-                    alt: "image"
-                },
+                
             ]
         }
     }

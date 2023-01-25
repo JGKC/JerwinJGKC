@@ -16,7 +16,7 @@ import {
 
     faPeopleGroup, faRocket, faCode, // Home Page
 
-    faCircleInfo, faTimeline, faBullseye, faEnvelope, faQuoteLeft, faTimes, faUpRightFromSquare, faFilePdf, // Project Info
+    faCircleInfo, faTimeline, faBullseye, faEnvelope, faQuoteLeft, faTimes, faUpRightFromSquare, faFilePdf, faChevronLeft, faChevronRight, // Project Info
 
 } from '@fortawesome/free-solid-svg-icons'
 
@@ -44,7 +44,7 @@ library.add(
 
     faHtml5, faCss3Alt, faJs, faVuejs, faPhp, faLaravel,// Skills
 
-    faQuoteLeft, faTimes, faUpRightFromSquare, faFilePdf
+    faQuoteLeft, faTimes, faUpRightFromSquare, faFilePdf, faChevronLeft, faChevronRight
     )
 
 

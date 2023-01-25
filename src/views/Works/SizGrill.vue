@@ -10,9 +10,15 @@
         <section class="py-[80px] font-['Quicksand']">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
                 <div class="w-[90%] m-auto">
-                    <div class="mb-4 w-full md:w-[65ch]">
-                        Ecozean Isalnd is an eco-friendly and self-sustainable island that helps rid pollution in the ocean.
-                        Members of the publix are able to ...
+                    <div class="mb-4 w-full md:w-[65ch] space-y-4">
+                        <div>
+                            SizGrill is a conceptual Restaurant that provides customers with grilled food.
+                            Our Customers can choose to grill their meal and we would provide the finest ingredients on the spot!
+                        </div>
+                        <div>
+                            Our purpose is to give the customers the opportunities to grill their food together with a group of close ones, 
+                            having fun and exciting memories during the process. We aim to provide them with an enjoyable experience each time they visit us.     
+                        </div>
                     </div>
 
                     <div class="w-full md:w-[65ch] space-y-4">
@@ -20,11 +26,10 @@
                         <Softwares Ai Ps Xd></Softwares>
                     </div>
                 </div>
-                
             </div>
         </section>
 
-        <section class="py-[80px] bg-[#2A2A2A] text-gray-100">
+        <section class="py-[80px] bg-[#5A5A5A] text-gray-100">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
                 <div class="w-[90%] m-auto grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
 
@@ -33,34 +38,31 @@
                         <div class="text-[2em] mb-8 font-bold font-[Montserrat] uppercase">Branding Rationale</div>
                         <div class="flex flex-col space-y-4">
                             <div>
-                                <div class="text-[1.5em] font-medium">Red Coloured Design</div>
+                                <div class="text-[1.5em] mb-2 font-bold font-['Montserrat']">Logp Development</div>
                                 <div class="font-[Quicksand] space-y-4">
                                     <div>
-                                        The overall design used different shades of red from grahics to texts. This signifies to the Samsui Women
-                                        or 'red headscarf' from literal translation, a group of Chinese female immigrants came from China to Malaya
-                                        and Singapore for Construction and industrial jobs in 1920s - 1940s.
+                                        the logo is created by using 9 circles and 7 lines.
+                                        The lines that are slanted are at 30° clockwise.
                                     </div>
            
                                 </div>
                             </div>
                             <div>
-                                <div class="text-[1.5em] font-medium">Graphics in Logo</div>
-                                <div class="font-[Quicksand]">
-                                    There are 2 graphics in the logo: a building and a hawker.
-        
-                                    The building represents Singapore Common Housing Estate, HDB Flats, and the hawker represents that Singapore 
-                                    was once a Kampong with its unqiue heritage lefted behind.
-    
-                                    The hawker graphic was modelled after the statue located in Hougang Heritage Trail.
+                                <div class="text-[1.5em] mb-2 font-bold font-['Montserrat']">Graphics in Logo</div>
+                                <div class="font-[Quicksand] space-y-2">
+                                    <div>There are 3 graphics too look out in the logo:</div>
+                                    <div>The S-looking shape represents Fire;</div>
+                                    <div>The G-looking object represents the Grill;</div>
+                                    <div> Lastly, the shape of grilled meat with grill lines is found at the bottom of the Grill.</div> 
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Logos -->
-                    <div class="lg:order-1 col-span-1 space-y-8">
-                        <img src="" alt="THH Logo" class="block">
-                        <img src="" alt="THH Logo" class="block">
+                    <div class="lg:order-1 col-span-1 space-y-8 grid grid-cols-2 items-center gap-8">
+                        <img src="@/assets/works/SizGrill/logo1.png" alt="SizGrill Logo" class="block">
+                        <img src="@/assets/works/SizGrill/logo.png" alt="SizGrill secondary Logo" class="block">
                     </div>
                 </div>
                 
@@ -82,6 +84,19 @@
             </div>
         </section>
 
+        <section class=" bg-teal-100">
+            <div class="w-full max-w-[1440px] m-auto">
+                <div class="w-[90%] m-auto">
+                    <div class="flex justify-between ">
+                        <router-link to="/works/IntroWeiqi" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> Intro To Weiqi</router-link>
+                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                        <router-link to="/works/AsianCompletionist" class="block p-4 text-black">Asian Completionist <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
+                    </div>
+                    <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                </div>
+            </div>
+        </section>
+
     </div>
 
 </template>
@@ -91,8 +106,11 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import ProjectInfo from '../../components/works/ProjectInfo.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
+import Preview from "@/assets/works/SizGrill/Preview.png"
 import Image1 from "@/assets/works/SizGrill/image1.png"
 import Image2 from "@/assets/works/SizGrill/image2.png"
+import Image3 from "@/assets/works/SizGrill/image3.png"
+import Image4 from "@/assets/works/SizGrill/image4.png"
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
@@ -108,13 +126,18 @@ export default{
                     alt: "image"
                 },
                 {
-                    src: "",
+                    src: Image4,
                     alt: "image"
                 },
                 {
-                    src: "",
+                    src: Preview,
                     alt: "image"
                 },
+                {
+                    src: Image3,
+                    alt: "image"
+                },
+
             ]
         }
     }
