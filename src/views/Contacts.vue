@@ -26,7 +26,7 @@
 		<div class="bg-white h-[100vh] grid place-items-center">
 				<div class="w-[80%]">
 					<div class="text-[2em] font-bold font-['Montserrat']">CONTACT FORM</div>
-					<form class="space-y-4" @submit="submitForm">
+					<form class="space-y-4" @submit="submitForm" netlify>
 						<div class="flex flex-col">
 							<label for="name" class="mb-1">Name</label>
 							<input v-model="form.name" id="name" name="name" type="text" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="Name"/>
