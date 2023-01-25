@@ -125,40 +125,40 @@ export default{
                 },
                 {
                     id: "4",
-                    title: IntroToWeiqi,
-                    img: "./src//assets/works/IntroToWeiqi/Preview.png",
+                    title: "Intro to Weiqi",
+                    img: IntroToWeiqi,
                     tags: ["Frontend"],
                     description: "Intro to Weiqi is a Web Application for people who are interested in learning in Weiqi (Go).",
                     link: "/Works/IntroWeiqi"
                 },
                 {
                     id: "5",
-                    title: SizGrill,
-                    img: "./src/assets/works/SizGrill/Preview.png",
+                    title: "SizGrill",
+                    img: SizGrill,
                     tags: ["Branding","Graphic"],
                     description: "SizGrill is a conceptual Restaurant Brand that provides customers with grilled food.",
                     link: "/Works/SizGrill"
                 },
                 {
                     id: "6",
-                    title: AsianC,
-                    img: "./src/assets/works/AsianCompletionist/Preview.png",
+                    title: "Asian Completionist",
+                    img: AsianC,
                     tags: ["Graphic"],
                     description: "Asian Completionist is a conceptual book design based a Malaysian Artist, Namewee.",
                     link: "/Works/AsianCompletionist"
                 },
                 {
                     id: "7",
-                    title: Cafennie,
-                    img: "./src/assets/works/Cafennie/Preview.png",
+                    title: "Cafennie",
+                    img: Cafennie,
                     tags: ["UX","UI","App"],
                     description: "Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses. ",
                     link: "/Works/Cafennie"
                 },
                 {
                     id: "8",
-                    title: Meditime,
-                    img: "./src/assets/works/Meditime/Preview.png",
+                    title: "Meditime",
+                    img: Meditime,
                     tags: ["UX","UI","App"],
                     description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
                     link: "/Works/Meditime"
