@@ -1,10 +1,10 @@
 <template>
 	<section id="contact01" class="w-full h-[200vh] lg:h-[100vh]">
-		<div class="w-full max-w-[1440px] m-auto grid grid-cols-1 lg:grid-cols-2">
+		<div class="w-full m-auto grid grid-cols-1 lg:grid-cols-2">
 
 		
 		<div class="sticky top-0 left-0 h-[100vh]">
-			<div class="w-full max-w-[1440px] m-auto flex flex-col lg:flex-row">
+			<div class="w-full m-auto flex flex-col lg:flex-row">
 				<div class="w-[90%] m-auto">
 					<div class="w-[80%]">
 						<TitleHead titleHead="HAPPY TO HEAR FROM YOU!" titleSub="CONTACTS PAGE" />
@@ -24,18 +24,18 @@
 		<div class="bg-white h-[100vh] grid place-items-center">
 				<div class="w-[80%]">
 					<div class="text-[2em] font-bold font-['Montserrat']">CONTACT FORM</div>
-					<form class="space-y-4" @submit="">
+					<form class="space-y-4" @submit="submitForm">
 						<div class="flex flex-col">
 							<label for="name" class="mb-1">Name</label>
-							<input id="name" name="name" type="text" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Name"/>
+							<input v-model="form.name" id="name" name="name" type="text" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="Name"/>
 						</div>
 						<div class="flex flex-col">
 							<label for="email" class="mb-1">Email</label>
-							<input id="email" name="email" type="email" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Email"/>
+							<input v-model="form.email" id="email" name="email" type="email" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="Email"/>
 						</div>
 						<div class="flex flex-col">
 							<label for="subject" class="mb-1">Subject</label>
-							<select name="subject" id="subject" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+							<select v-model="form.subject" name="subject" id="subject" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm">
 								<option value="" selected disabled>Please Select a Subject</option>
 								<option value="fluff">Just Saying Hi!!!</option>
 								<option value="work">Working Oppotunties</option>
@@ -44,10 +44,10 @@
 						</div>
 						<div class="flex flex-col">
 							<label for="message" class="mb-1">Message</label>
-							<textarea name="message" id="message" cols="" rows="5" required fixed class="resize-none relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"></textarea>
+							<textarea v-model="form.message" name="message" id="message" cols="" rows="5" required fixed class="resize-none relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm"></textarea>
 						</div>
 						<div>
-							<button type="submit" class="mt-4 relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+							<button type="submit" class="mt-4 relative flex w-full justify-center rounded-md border border-transparent bg-[#20B2AA] py-2 px-4 text-sm font-medium text-white hover:bg-[#188781] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
 								Send Message!
 							</button>
 						</div>
@@ -105,10 +105,19 @@ import TitleHead from '../components/TitleHead.vue'
 						link:		"https://twitter.com/Jerwin_JGKC"
 					},
 
-				]
-
-
-
+				],
+				form:{
+					name:"",
+					email:"",
+					subject:"",
+					message:""
+				}
+			}
+		},
+		methods:{
+			submitForm(ev){
+				ev.preventDefault()
+				JSON.stringify(this.form)
 			}
 		}
 	}
