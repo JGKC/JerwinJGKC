@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="AsianCompletionist/Preview.png"
+            :imageURL=heroImg
             titleHeader="ASIAN COMPLETIONIST"
             titleSubHeader="GRAPHIC DESIGN , 2021"
         ></ProjectHero>
@@ -74,6 +74,7 @@ export default{
     },
     data(){
         return{
+            heroImg:Preview,
             gallery:[
                 {
                     src: Image1,
