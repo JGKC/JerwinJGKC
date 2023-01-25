@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center italic">click the image to enlarge the view</div>
+                    <!-- <div class="text-center italic">click the image to enlarge the view</div> -->
                 </div>
             </div>
         </section>
@@ -89,7 +89,7 @@
         <section class="py-[80px]">
             <div class="w-full max-w-[1440px] m-auto">
                 <div class="w-[90%] m-auto">
-                    <div class="text-[1.5em] font-bold font-['Montserrat'] text-center">ACKNOWLEDGEMENT</div>
+                    <div class="text-[1.5em] lg:text-[2em] font-bold font-['Montserrat'] text-center">ACKNOWLEDGEMENT</div>
                     <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 lg:grid-cols-3 lg:grid-rows-auto">
                         <div v-for="item in acknowlegdement">
                             <div class="rounded-[5px] bg-green-100 p-8 space-y-4">
@@ -107,7 +107,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="text-center italic">click the image to enlarge the view</div> -->
                 </div>
             </div>
         </section>
@@ -120,6 +119,7 @@ import TitleHead from '../../components/TitleHead.vue';
 import ProjectHero from '../../components/works/ProjectHero.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
+import Preview from "@/assets/works/Ecozean/Preview.png"
 import image1 from "@/assets/works/Ecozean/image1.png"
 
 
@@ -133,8 +133,8 @@ export default{
                     alt: "overview image"
                 },
                 {
-                    src: "",
-                    alt: "image"
+                    src: Preview,
+                    alt: "preview image"
                 },
                 {
                     src: "",

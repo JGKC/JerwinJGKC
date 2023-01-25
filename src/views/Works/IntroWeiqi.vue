@@ -32,16 +32,16 @@
 
         <section class="w-full max-w-[1440px] m-auto py-[80px]">
             <div class="w-[90%] m-auto">
-                <div class="text-[2em] font-bold font-['Montserrat']">Gallery</div>
+                <div class="text-[2em] font-bold font-['Montserrat']">GALLERY</div>
                 <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 lg:grid-cols-2 lg:grid-rows-auto">
                     
                     <div v-for="img in gallery">
                         <div class="aspect-video bg-green-100 shadow-md border-2 border-green-400">
-                            <img :src="'../../assets/works/THH/'+img.src" :alt=img.alt class="">
+                            <img :src="img.src" :alt=img.alt class="">
                         </div>
                     </div>
                 </div>
-                <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div>
+                <!-- <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div> -->
             </div>
         </section>
     </div>
@@ -55,26 +55,21 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import ProjectInfo from '../../components/works/ProjectInfo.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
+import Preview from '@/assets/works/IntroToWeiqi/Preview.png'
+import Image1 from '@/assets/works/IntroToWeiqi/image1.png'
+
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
     data(){
         return{
             gallery:[
                 {
-                    src: "",
-                    alt: "image"
+                    src: Image1,
+                    alt: "overview image"
                 },
                 {
-                    src: "",
-                    alt: "image"
-                },
-                {
-                    src: "",
-                    alt: "image"
-                },
-                {
-                    src: "",
-                    alt: "image"
+                    src: Preview,
+                    alt: "preview image"
                 },
             ]
         }

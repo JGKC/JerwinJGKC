@@ -28,12 +28,12 @@
                 <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 lg:grid-cols-2 lg:grid-rows-auto">
                     
                     <div v-for="img in gallery">
-                        <div class="aspect-video bg-green-100 shadow-md border-2 border-green-400">
+                        <div class="aspect-video bg-green-100 shadow-md border-2 border-green-400 overflow-hidden">
                             <img :src="img.src" :alt=img.alt class="">
                         </div>
                     </div>
                 </div>
-                <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div>
+                <!-- <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div> -->
             </div>
         </section>
 
@@ -46,6 +46,7 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import ProjectInfo from '../../components/works/ProjectInfo.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
+import Preview from "@/assets/works/Cafennie/Preview.png"
 import Image1 from "@/assets/works/Cafennie/image1.png"
 
 export default{
@@ -55,15 +56,11 @@ export default{
             gallery:[
                 {
                     src: Image1,
-                    alt: "image"
+                    alt: "overview image"
                 },
                 {
-                    src: "",
-                    alt: "image"
-                },
-                {
-                    src: "",
-                    alt: "image"
+                    src: Preview,
+                    alt: "preview image"
                 },
             ]
         }

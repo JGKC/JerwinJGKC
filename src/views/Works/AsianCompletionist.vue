@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div>
+                <!-- <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div> -->
             </div>
         </section>
 
@@ -50,6 +50,7 @@ import ProjectHero from '@/components/works/ProjectHero.vue';
 import ProjectInfo from '@/components/works/ProjectInfo.vue';
 import Softwares from '@/components/works/Softwares.vue';
 
+import Preview from '@/assets/works/AsianCompletionist/Preview.png'
 import Image1 from '@/assets/works/AsianCompletionist/image1.png'
 
 
@@ -63,8 +64,8 @@ export default{
                     alt: "content view"
                 },
                 {
-                    src: "",
-                    alt: "image"
+                    src: Preview,
+                    alt: "preview image"
                 },
             ],
         }

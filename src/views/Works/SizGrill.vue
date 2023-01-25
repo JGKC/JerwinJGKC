@@ -69,7 +69,7 @@
 
         <section class="w-full max-w-[1440px] m-auto py-[80px]">
             <div class="w-[90%] m-auto">
-                <div class="text-[2em] font-bold font-['Montserrat']">Gallery</div>
+                <div class="text-[2em] font-bold font-['Montserrat']">GALLERY</div>
                 <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 lg:grid-cols-2 lg:grid-rows-auto">
                     
                     <div v-for="img in gallery">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div>
+                <!-- <div class="text-center italic font-['quicksand']">click the image to enlarge the view</div> -->
             </div>
         </section>
 
