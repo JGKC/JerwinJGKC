@@ -16,7 +16,9 @@
                             Members of the public are able to visit the island for educational pruposes, to understand Ecozean's purpose and 
                             learn alternative ways to help with the ocean poullution issue.
                         </div>
-
+                        <div class="mb-4 w-full md:w-[65ch]">
+                            In this group of 4 project, I was in charge of coding the Microsite. I mainly use jQuery as the main framework and GSAP for animations.
+                        </div>
                         
                         <div class="w-full md:w-[65ch] space-y-4 ">
                             <div>Project Duration: 2 Weeks, Aug 2021</div>
@@ -30,7 +32,7 @@
                         </div>
 
                     </div>
-                    <div class="border-2 border-green-500 lg:max-w-[560px] w-full">
+                    <div class="border-2 border-green-500 lg:max-w-[560px] w-full h-fit">
                         <iframe width="100%" class="aspect-video" src="https://www.youtube.com/embed/yfh4FjSgKpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
