@@ -1,7 +1,7 @@
-/       /
-/About      /About
-/Works      /Works
-/Contacts   /Contacts
+/   / 200
+/About /About 200
+/Works /Works 200
+/Contacts /Contacts 200
 
 /Works/Ecozean      /Works/Ecozean
 /Works/THH          /Works/THH
@@ -11,3 +11,5 @@
 /Works/AsianCompletionist   /Works/AsianCompletionist
 /Works/Cafennie     /Works/Cafennie
 /Works/Meditime     /Works/Meditime
+
+/* /NotFound 404

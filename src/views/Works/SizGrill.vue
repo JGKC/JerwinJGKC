@@ -19,7 +19,7 @@
                             Our purpose is to give the customers the opportunities to grill their food together with a group of close ones, 
                             having fun and exciting memories during the process. We aim to provide them with an enjoyable experience each time they visit us.     
                         </div>
-                        <div class="mb-4 w-full md:w-[65ch]">
+                        <div>
                             In this project, I used different design softwares to create a brand guide, logo and digital visuals.
                         </div>
                     </div>

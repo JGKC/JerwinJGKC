@@ -16,6 +16,10 @@
                             wanted to know the Basic Introduction for Weiqi. It features the introduction of Weiqi, the 
                             tutorial and the webistes and venues they can practice in online and physically respectively.
                         </div>
+                        <div class="mb-4 w-full md:w-[65ch]">
+                            For this project, I mainly use <a href="https://jquery.com/" target="_blank" class="text-green-600 underline">jQuery</a> 
+                            as the main framework for interaction and <a href="https://greensock.com/gsap/"  target="_blank" class="text-green-600 underline">GSAP</a> for animations.
+                        </div>
     
                         <div class="w-full md:w-[65ch] space-y-4">
                             <div>Project Duration: Apr 2021 - Aug 2021</div>
