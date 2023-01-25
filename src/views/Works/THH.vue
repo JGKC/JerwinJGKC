@@ -15,6 +15,9 @@
                         guide for users who enjoys travelling around the heritage corners of Singapore that experienced
                         as we go about our daily lives. 
                     </div>
+                    <div class="mb-4 w-full md:w-[65ch]">
+                        In this project, I mainly use JavaScript for most of mouse interactions and PHP & mySQL for backend database.
+                    </div>
                     <div class="w-full md:w-[65ch] space-y-4">
                         <div>Project Duration: Oct 2021 - Feb 2022</div>
                         <Softwares Xd Ai Ps VSCode HTML CSS JS PHP></Softwares>

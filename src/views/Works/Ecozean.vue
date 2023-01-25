@@ -17,7 +17,8 @@
                             learn alternative ways to help with the ocean poullution issue.
                         </div>
                         <div class="mb-4 w-full md:w-[65ch]">
-                            In this group of 4 project, I was in charge of coding the Microsite. I mainly use jQuery as the main framework and GSAP for animations.
+                            In this group of 4 project, I was in charge of coding the Microsite. 
+                            I mainly use <a href="https://jquery.com/" target="_blank" class="text-green-600 underline">jQuery</a> as the main framework and <a href="https://greensock.com/gsap/"  target="_blank" class="text-green-600 underline">GSAP</a> for animations.
                         </div>
                         
                         <div class="w-full md:w-[65ch] space-y-4 ">

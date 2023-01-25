@@ -16,7 +16,9 @@
                             (Primary 3 to 6) about the harmful effect of junk food and choosing the healthy meals to eat. 
                             The game objective is to avoid touching junk food and collect the healthy food.
                         </div>
-    
+                        <div class="mb-4 w-full md:w-[65ch]">
+                        In this project, I mainly use <a href="https://pixijs.com/"  target="_blank" class="text-green-600 underline">PixiJS</a> framework for most of the interactions.
+                        </div>
                         <div class="w-full md:w-[65ch] space-y-4">
                             <div>Project Duration: Oct 2021 - Feb 2022</div>
                             <Softwares Ai Xd VSCode HTML CSS JS></Softwares>

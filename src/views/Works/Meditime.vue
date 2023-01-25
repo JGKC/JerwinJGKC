@@ -9,13 +9,21 @@
 
         <section class="py-[80px] font-['Quicksand']">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
-                <div class="w-[90%] m-auto">
-                    <div class="mb-4 w-full md:w-[65ch]">
-                        Meditime is an app that keeps track of medications and reminders to take medication on time.
+                <div class="w-[90%] m-auto flex flex-wrap justify-between gap-10">
+                    <div>
+                        <div class="mb-4 w-full md:w-[65ch]">
+                            Meditime is an app that keeps track of medications and reminders to take medication on time.
+                        </div>
+                        <div class="mb-4 w-full md:w-[65ch]">
+                            Under Google UX Certification Program, I followed the steps as I learn more towards as a UX Designer.
+                        </div>
+                        <div class="w-full md:w-[65ch] space-y-4">
+                            <div>Project Duration: 7 Days, July 2022</div>
+                            <Softwares Xd ></Softwares>
+                        </div>
                     </div>
-                    <div class="w-full md:w-[65ch] space-y-4">
-                        <div>Project Duration: 7 Days, July 2022</div>
-                        <Softwares Xd ></Softwares>
+                    <div class="border-2 border-green-500 lg:max-w-[560px] w-full aspect-video">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTks1y0FcCk7nkv5lLybKMZ71JRoQs-Bf6sUAASsEUvxNbB2Lnv0S3Ktnn2CIawrtbxhmEG3R7T2RKX/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                 </div>
                 
