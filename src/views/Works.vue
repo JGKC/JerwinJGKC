@@ -108,7 +108,7 @@ export default{
                 {
                     id: "3",
                     title: "Sky Foodie",
-                    img: "@/assets/works/SkyFoodie/Preview.png",
+                    img: "./src/assets/works/SkyFoodie/Preview.png",
                     tags: ["Frontend"],
                     description: "Sky Foodie is a Web Game Application that raises awareness choosing healthy eating.",
                     link: "/Works/SkyFoodie"
@@ -116,7 +116,7 @@ export default{
                 {
                     id: "4",
                     title: "Intro to Weiqi",
-                    img: "@/assets/works/IntroToWeiqi/Preview.png",
+                    img: "./src//assets/works/IntroToWeiqi/Preview.png",
                     tags: ["Frontend"],
                     description: "Intro to Weiqi is a Web Application for people who are interested in learning in Weiqi (Go).",
                     link: "/Works/IntroWeiqi"
@@ -124,7 +124,7 @@ export default{
                 {
                     id: "5",
                     title: "SizGrill",
-                    img: "assets/works/SizGrill/Preview.png",
+                    img: "./src/assets/works/SizGrill/Preview.png",
                     tags: ["Branding","Graphic"],
                     description: "SizGrill is a conceptual Restaurant Brand that provides customers with grilled food.",
                     link: "/Works/SizGrill"
@@ -132,7 +132,7 @@ export default{
                 {
                     id: "6",
                     title: "Asian Completionist",
-                    img: "assets/works/AsianCompletionist/Preview.png",
+                    img: "./src/assets/works/AsianCompletionist/Preview.png",
                     tags: ["Graphic"],
                     description: "Asian Completionist is a conceptual book design based a Malaysian Artist, Namewee.",
                     link: "/Works/AsianCompletionist"
@@ -140,7 +140,7 @@ export default{
                 {
                     id: "7",
                     title: "Cafennie",
-                    img: "assets/works/Cafennie/Preview.png",
+                    img: "./src/assets/works/Cafennie/Preview.png",
                     tags: ["UX","UI","App"],
                     description: "Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses. ",
                     link: "/Works/Cafennie"
@@ -148,7 +148,7 @@ export default{
                 {
                     id: "8",
                     title: "Meditime",
-                    img: "assets/works/Meditime/Preview.png",
+                    img: "./src/assets/works/Meditime/Preview.png",
                     tags: ["UX","UI","App"],
                     description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
                     link: "/Works/Meditime"
