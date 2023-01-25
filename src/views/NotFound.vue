@@ -6,13 +6,13 @@
           <TitleHead titleHead="PAGE NOT FOUND" titleSub="ERROR 404" />
           <div class="font-[Quicksand] mt-4">I wonder how you get here... Maybe try checking the URL?</div>
         </div>
-        <div class="hidden lg:block">
+        <!-- <div class="hidden lg:block">
           <div>
             How many clicks/taps can you do in 30 seconds?
           </div>
           <div>Click Count: {{ this.clickCount }}</div>
           <div id="click" @click="clickCounter()" class="">Start</div>
-        </div>
+        </div> -->
       </div>
   </div>
 
