@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="Meditime/Preview.png"
+            :imageURL=heroImg
             titleHeader="MEDITIME"
             titleSubHeader="UI / UX, 2022"
         ></ProjectHero>
@@ -77,6 +77,7 @@ export default{
     },
     data(){
         return{
+            heroImg:Preview,
             gallery:[
                 {
                     src: Image1,

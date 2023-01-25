@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="THH/Preview.png"
+            :imageURL=heroImg
             titleHeader="THE HIDDEN HERITAGE"
             titleSubHeader="FRONTEND / BACKEND"
         ></ProjectHero>
@@ -129,8 +129,7 @@ export default{
     },
     data(){
         return{
-            brand:[
-            ],
+            heroImg:Preview,
             gallery: [
                 {
                     src: Preview,

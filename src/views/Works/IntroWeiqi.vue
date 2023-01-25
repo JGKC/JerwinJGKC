@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="IntroToWeiqi/Preview.png"
+            :imageURL=heroImg
             titleHeader="INTO TO WEIQI"
             titleSubHeader="FRONTEND / CREATIVE CODING, 2021"
         ></ProjectHero>
@@ -82,6 +82,7 @@ export default{
     },
     data(){
         return{
+            heroImg:Preview,
             gallery:[
                 {
                     src: Image1,

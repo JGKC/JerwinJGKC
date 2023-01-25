@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="Cafennie/Preview.png"
+            :imageURL=heroImg
             titleHeader="CAFENNIE"
             titleSubHeader="UI / UX, 2022"
         ></ProjectHero>
@@ -69,6 +69,7 @@ export default{
     },
     data(){
         return{
+            heroImg:Preview,
             gallery:[
                 {
                     src: Image1,

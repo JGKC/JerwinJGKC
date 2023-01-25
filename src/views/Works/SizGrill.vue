@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="SizGrill/Preview.png"
+            :imageURL=heroImg
             titleHeader="SIZGRILL"
             titleSubHeader="BRANDING / GRAPHIC"
         ></ProjectHero>
@@ -122,6 +122,7 @@ export default{
     },
     data(){
         return{
+            heroImg:Preview,
             gallery:[
                 {
                     src: Image1,

@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="SkyFoodie/Preview.png"
+            :imageURL=heroImg
             titleHeader="SKY FOODIE"
             titleSubHeader="FRONTEND / CREATIVE CODING, 2022"
         ></ProjectHero>
@@ -81,6 +81,7 @@ export default{
     },
     data(){
         return{
+            heroImg:Preview,
             gallery:[
                 {
                     src: Image1,

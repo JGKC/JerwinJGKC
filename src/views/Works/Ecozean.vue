@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            imageURL="Ecozean/Preview.png"
+            :imageURL=Preview
             titleHeader="ECOZEAN"
             titleSubHeader="FRONTEND / UX, 2022"
         ></ProjectHero>
@@ -157,6 +157,7 @@ export default{
     },
     data(){
         return{
+            heroImg:Preview,
             gallery:[
                 {
                     src: Image1,
