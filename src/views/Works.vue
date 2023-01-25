@@ -92,7 +92,7 @@ export default{
                 {
                     id: "1",
                     title: "Ecozean", 
-                    img: "@/assets/works/Ecozean/Preview.png", 
+                    img: "./src/assets/works/Ecozean/Preview.png", 
                     tags: ["Frontend","UX"],
                     description: "Ecozean is a fiticous eco-friendly Island for combating the ocean pollution.",
                     link: "/Works/Ecozean"
@@ -100,7 +100,7 @@ export default{
                 {
                     id: "2",
                     title: "The Hidden Heritage",
-                    img: "@/assets/works/THH/Preview.png",
+                    img: "./src/assets/works/THH/Preview.png",
                     tags: ["Frontend", "Backend"],
                     description: "The Hidden Heritage is a Forum Webpage that brings discussions to the Sinagpore Heritage.",
                     link: "/Works/THH"
