@@ -17,7 +17,7 @@
 						<div><b>Location:</b> Based in Singapore</div>
 						<div><b>Available Contact Hours:</b> 12PM - 5PM (SGT/GMT+8)</div>
 						<div><b>EMAIL:</b> jerwingoh.work@gmail.com</div>
-						<div><b>TWIITTER:</b> @Jerwin_JGKC</div>
+						<div><b>TWITTER:</b> @Jerwin_JGKC</div>
 					</div>
 				</div>
 			</div>
