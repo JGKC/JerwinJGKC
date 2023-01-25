@@ -69,6 +69,9 @@ import Image1 from '@/assets/works/AsianCompletionist/image1.png'
 
 export default{
     components:{ ProjectHero, ProjectInfo, Softwares },
+    mounted(){
+        document.title = 'Asian Completionist | JerwinJGKC'
+    },
     data(){
         return{
             gallery:[

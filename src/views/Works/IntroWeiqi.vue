@@ -73,6 +73,9 @@ import Image1 from '@/assets/works/IntroToWeiqi/image1.png'
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
+    mounted(){
+        document.title = 'Intro To Weiqi | JerwinJGKC'
+    },
     data(){
         return{
             gallery:[

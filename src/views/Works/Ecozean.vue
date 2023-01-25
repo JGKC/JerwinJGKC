@@ -141,6 +141,9 @@ import Image4 from "@/assets/works/Ecozean/image4.png"
 
 export default{
     components: { TitleHead, ProjectHero, Softwares },
+    mounted(){
+        document.title = 'Ecozean | JerwinJGKC'
+    },
     data(){
         return{
             gallery:[
