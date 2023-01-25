@@ -16,11 +16,19 @@
                             Members of the public are able to visit the island for educational pruposes, to understand Ecozean's purpose and 
                             learn alternative ways to help with the ocean poullution issue.
                         </div>
-    
+
+                        
                         <div class="w-full md:w-[65ch] space-y-4 ">
                             <div>Project Duration: 2 Weeks, Aug 2021</div>
                             <Softwares Ai Ps Xd VSCode HTML CSS JS></Softwares>
                         </div>
+
+                        <div class="mb-4"> 
+                            <a href="https://ecozean.jerwingoh.com" target="_blank"
+                            class="mt-4 relative flex w-[250px] justify-center rounded-md border border-transparent bg-[#20B2AA] py-2 px-4 text-sm font-bold font-['Quicksand'] text-white hover:bg-[#188781] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                            >Visit Page</a>
+                        </div>
+
                     </div>
                     <div class="border-2 border-green-500 lg:max-w-[560px] w-full">
                         <iframe width="100%" class="aspect-video" src="https://www.youtube.com/embed/yfh4FjSgKpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

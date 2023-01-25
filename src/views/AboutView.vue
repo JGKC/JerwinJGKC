@@ -104,6 +104,10 @@
 		</div>
 	</section>
 
+	<section class="bg-green-100">
+		<KeepInTouch></KeepInTouch>
+	</section>
+
   </div>
 
 </template>
@@ -112,9 +116,10 @@
 import TitleHead from '../components/TitleHead.vue'
 import Resume from "@/assets/about/JerwinGoh_Resume2023.pdf"
 import cv2023 from "@/assets/about/CV2023.pdf"
+import KeepInTouch from '../components/KeepInTouch.vue'
 
 export default{
-	components: {TitleHead},
+	components: { TitleHead, KeepInTouch },
 	mounted(){
         document.title = 'About | JerwinJGKC'
     },
