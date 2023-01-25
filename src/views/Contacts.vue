@@ -68,6 +68,9 @@ import TitleHead from '../components/TitleHead.vue'
 
 	export default{
 		components: { TitleHead, KeepInTouch },
+		mounted(){
+        document.title = 'Contacts | JerwinJGKC'
+    },
 		data(){
 			return{
 				socials: [

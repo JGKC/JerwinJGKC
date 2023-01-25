@@ -74,6 +74,9 @@ import Image2 from '@/assets/works/SkyFoodie/image2.png'
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
+    mounted(){
+        document.title = 'Sky Foodie | JerwinJGKC'
+    },
     data(){
         return{
             gallery:[

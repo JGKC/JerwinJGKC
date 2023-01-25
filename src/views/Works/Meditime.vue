@@ -64,6 +64,9 @@ import Image1 from "../../assets/works/Meditime/image.png"
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
+    mounted(){
+        document.title = 'Meditime | JerwinJGKC'
+    },
     data(){
         return{
             gallery:[

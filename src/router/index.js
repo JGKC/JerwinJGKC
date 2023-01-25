@@ -91,7 +91,9 @@ const router = createRouter({
     }
   },
   beforeEach(to, from, next){
-    document.title = to.meta.title
+    Vue.nextTick(() => {
+      document.title = to.meta.title || DEFAULT_TITLE;
+  });
   }
 })
 

@@ -64,6 +64,9 @@ import Image1 from "@/assets/works/Cafennie/image1.png"
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
+    mounted(){
+        document.title = 'Cafennie | JerwinJGKC'
+    },
     data(){
         return{
             gallery:[

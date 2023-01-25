@@ -121,6 +121,9 @@ import Image3 from "@/assets/works/THH/image3.png"
 
 export default{
     components: { TitleHead, ProjectInfo, ProjectHero, Softwares },
+    mounted(){
+        document.title = 'The Hidden Heritage | JerwinJGKC'
+    },
     data(){
         return{
             brand:[

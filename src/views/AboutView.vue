@@ -115,6 +115,9 @@ import cv2023 from "@/assets/about/CV2023.pdf"
 
 export default{
 	components: {TitleHead},
+	mounted(){
+        document.title = 'About | JerwinJGKC'
+    },
 	computed(){
 	},
 	data(){

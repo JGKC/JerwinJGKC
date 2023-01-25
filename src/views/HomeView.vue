@@ -124,6 +124,9 @@ import THH from "@/assets/works/THH/Preview.png"
 
 export default{
 	components:{ KeepInTouch, RouterBtn, Softwares },
+	mounted(){
+        document.title = 'Home | JerwinJGKC'
+    },
 	data(){
 		return{
 			skills:[

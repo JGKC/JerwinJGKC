@@ -50,6 +50,9 @@ export default{
     components: {
         TitleHead,WorksCard
     },
+    mounted(){
+        document.title = 'Works | JerwinJGKC'
+    },
     data(){
         return{
             checkedWorks: [],

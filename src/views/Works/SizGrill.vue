@@ -114,6 +114,9 @@ import Image4 from "@/assets/works/SizGrill/image4.png"
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
+    mounted(){
+        document.title = 'SizGrill | JerwinJGKC'
+    },
     data(){
         return{
             gallery:[

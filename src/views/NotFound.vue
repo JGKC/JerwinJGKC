@@ -23,6 +23,9 @@
   export default{
     name:"Error404",
     components:{TitleHead},
+    mounted(){
+        document.title = 'Error404 | JerwinJGKC'
+    },
     data(){
       return{
         clickCount: 0,
