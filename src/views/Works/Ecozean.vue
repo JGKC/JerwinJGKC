@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
 
         <ProjectHero
-            :imageURL=Preview
+            :imageURL=heroImg
             titleHeader="ECOZEAN"
             titleSubHeader="FRONTEND / UX, 2022"
         ></ProjectHero>
