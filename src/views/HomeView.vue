@@ -12,7 +12,7 @@
 							<div class="font-['Montserrat'] text-[2.5em] md:text-[3.25em] lg:text-[5em] font-bold text-[#20B2AA]">JERWIN GOH</div>
 							<div class="text-[1.1em] md:text-[1.5em] lg:text-[2.25em] font-semibold">UX DESIGN • WEB DEVELOPMENT</div>
 						</div>
-						<div id="home-text" class="w-[30ch] m-auto font-semibold md:text-[1.2em] lg:text-[1.5em] bg-[#20B2AA] text-[#fff] py-2">
+						<div id="home-text" class="w-[32ch] m-auto font-semibold md:text-[1.2em] lg:text-[1.5em] bg-[#20B2AA] text-[#fff] py-2">
 							<span class="font-['Montserrat'] font-bold">DESIGN</span> with the best of interest, 
 							<span class="font-['Montserrat'] font-bold">DEVELOP</span> to fulfil the dream.
 						</div>
@@ -231,7 +231,7 @@ export default{
 	white-space: wrap; 
 }
 to { 
-	width: 30ch; 
+	width: 32ch; 
 	white-space: wrap; 
 }
 }
