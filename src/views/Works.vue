@@ -10,8 +10,11 @@
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
 
                 <!-- Filter -->
-                <div class="w-[90%] mx-auto my-[20px] h-fit p-[20px] rounded-[5px] bg-gray-200 flex flex-wrap gap-4">
-                    <div class="text-[24px] font-bold">FILTER</div>
+                <div class="w-[90%] mx-auto my-[20px] h-fit p-[20px] rounded-[5px] bg-green-50 border-2 flex flex-wrap gap-4">
+                    <div class="flex gap-4 border-r-2 pr-4">
+                        <div class="text-[24px] font-bold">FILTER</div>
+                        <div @click="clearFilter" class="px-[10px] py-[5px] border-[1px] border-gray-400 bg-gray-100  hover:bg-gray-300 rounded-lg font-[Quicksand]">Clear Filter</div>
+                    </div>
 
                     <div class="filter flex flex-wrap gap-2">
                         <div v-for="(tag) in tags" class="inline-flex items-center font-[Quicksand]">
@@ -19,7 +22,6 @@
                             <label :for="tag.tag" :class="tag.class" class="cursor-pointer">{{tag.tag}}</label>
                         </div>
                     </div>
-
                 </div>
 
                 
@@ -54,6 +56,8 @@ import SizGrill from '../assets/works/SizGrill/Preview.png'
 import AsianC from '../assets/works/AsianCompletionist/Preview.png'
 import Cafennie from '../assets/works/Cafennie/Preview.png'
 import Meditime from '../assets/works/Meditime/Preview.png'
+import SugarIntake from '../assets/works/SugarIntake/Preview.png'
+import ITP from '../assets/works/ITP/Preview.png'
 
 
 export default{
@@ -162,11 +166,42 @@ export default{
                     tags: ["UX","UI","App"],
                     description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
                     link: "/Works/Meditime"
-                }
+                },
+                {
+                    id: "9",
+                    title: "Sugar Intake Poster",
+                    img: SugarIntake,
+                    tags: ["Graphic"],
+                    description: "COMING VERY SOON",
+                    link: "/Works"
+                },
+                {
+                    id: "10",
+                    title: "Internship Portal",
+                    img: ITP,
+                    tags: ["Frontend","Backend","UI","UX"],
+                    description: "COMING VERY SOON",
+                    link: "/Works"
+                },
             ]
         }
     },
     methods:{
+        clearFilter(){
+            let worksEl = Array.from(document.getElementsByClassName("worksCard"))
+            let worksTag = Array.from(document.getElementsByTagName("label"))
+
+            this.checkedWorks.length = 0
+            console.log("cleared")
+
+            worksEl.forEach(y =>{
+                    y.style.display = "block"
+                });
+
+            worksTag.forEach(z => {
+                z.classList.remove("selected")
+            })
+        },
         updateFilter(evt){
 
             let worksEl = Array.from(document.getElementsByClassName("worksCard"))

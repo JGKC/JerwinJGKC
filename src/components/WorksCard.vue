@@ -13,7 +13,7 @@
                 </div>
             </div>
             <!-- Description -->
-            <div class="leading-[120%]">
+            <div class="leading-[120%] min-h-[50px]">
                 {{description}}
             </div>
         </div>
