@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Footer from './components/Footer.vue';
+import BottomNavBar from './components/NavBar/BottomNavBar.vue';
 import SideNavBar from './components/NavBar/SideNavBar.vue';
 import TopNavBar from './components/NavBar/TopNavBar.vue';
 </script>
@@ -8,10 +9,11 @@ import TopNavBar from './components/NavBar/TopNavBar.vue';
 <template>
   <div class="flex flex-col lg:flex-row">
     <SideNavBar class="sticky top-0"/>
-    <div class="appRight">
-      <TopNavBar class="sticky top-0 z-50" />
+    <div class="static appRight">
+      <!-- <TopNavBar class="sticky top-0 z-50" /> -->
       <RouterView class="RouterView"/>
       <Footer />
+      <BottomNavBar class="fixed bottom-0 z-50" />
     </div>
   </div>
 </template>

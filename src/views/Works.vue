@@ -11,9 +11,9 @@
 
                 <!-- Filter -->
                 <div class="w-[90%] mx-auto my-[20px] h-fit p-[20px] rounded-[5px] bg-green-50 border-2 flex flex-wrap gap-4">
-                    <div class="flex gap-4 border-r-2 pr-4">
+                    <div class="flex gap-4 lg:border-r-2 pr-4">
                         <div class="text-[24px] font-bold">FILTER</div>
-                        <div @click="clearFilter" class="px-[10px] py-[5px] border-[1px] border-gray-400 bg-gray-100  hover:bg-gray-300 rounded-lg font-[Quicksand]">Clear Filter</div>
+                        <div @click="clearFilter" class="hover:cursor-pointer px-[10px] py-[5px] border-[1px] border-gray-400 bg-gray-100  hover:bg-gray-300 rounded-lg font-[Quicksand]">Clear Filter</div>
                     </div>
 
                     <div class="filter flex flex-wrap gap-2">
