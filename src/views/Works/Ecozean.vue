@@ -146,7 +146,7 @@ import Preview from "@/assets/works/Ecozean/Preview.png"
 import Image1 from "@/assets/works/Ecozean/image1.png"
 import Image2 from "@/assets/works/Ecozean/image2.png"
 import Image3 from "@/assets/works/Ecozean/image3.png"
-import Image4 from "@/assets/works/Ecozean/image4.png"
+import Image5 from "@/assets/works/Ecozean/image5.png"
 
 
 export default{
@@ -163,10 +163,6 @@ export default{
                     alt: "overview image"
                 },
                 {
-                    src: Preview,
-                    alt: "preview image"
-                },
-                {
                     src: Image2,
                     alt: "about image"
                 },
@@ -175,7 +171,7 @@ export default{
                     alt: "features image"
                 },
                 {
-                    src: Image4,
+                    src: Image5,
                     alt: "error404 image"
                 },
             ],
