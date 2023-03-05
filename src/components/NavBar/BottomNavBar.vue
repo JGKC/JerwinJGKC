@@ -1,7 +1,7 @@
 <template>
     <div class="w-full flex flex-col lg:hidden ">
         
-        <div class="w-full h-[80px] bg-white px-[20px] grid grid-cols-5 place-items-center drop-shadow-md z-10 gap-4">
+        <div class="w-full h-[80px] bg-white px-[20px] grid grid-cols-5 place-items-center z-10 gap-4 bk-shadow">
                 <RouterLink to="/" class="BotNavBtn ">
                     <font-awesome-icon icon="fa-solid fa-house" size="xl"/>
                     <div>Home</div>
@@ -51,5 +51,9 @@
 
     font-size: 14px;
     font-family: "Quicksand", sans-serif;
+}
+
+.bk-shadow{
+    filter: drop-shadow(0 -2.5px 0.5rem #86efac);
 }
 </style>

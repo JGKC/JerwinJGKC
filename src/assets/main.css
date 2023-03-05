@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 
-#home01,#contact01 {
+#home01,#contact01,footer {
   background: linear-gradient(45deg, #94eb9b, #add8e6);
   background-size: 400% 400%;
 

@@ -56,7 +56,7 @@ import SizGrill from '../assets/works/SizGrill/Preview.png'
 import AsianC from '../assets/works/AsianCompletionist/Preview.png'
 import Cafennie from '../assets/works/Cafennie/Preview.png'
 import Meditime from '../assets/works/Meditime/Preview.png'
-import SugarIntake from '../assets/works/SugarIntake/Preview.png'
+import NutriGrade from '../assets/works/NutriGrade/Preview.png'
 import ITP from '../assets/works/ITP/Preview.png'
 
 
@@ -169,8 +169,8 @@ export default{
                 },
                 {
                     id: "9",
-                    title: "Sugar Intake Poster",
-                    img: SugarIntake,
+                    title: "NutriGrade Poster",
+                    img: NutriGrade,
                     tags: ["Graphic"],
                     description: "COMING VERY SOON",
                     link: "/Works"

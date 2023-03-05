@@ -4,7 +4,7 @@
     	<section id="home01" class="h-[100vh] w-full font-['Quicksand'] text-center grid p-10">
 			<div class="w-full max-w-[1440px] m-auto">
 				<div class="grid grid-cols-1 lg:grid-cols-3">
-					<div class="w-[80%] m-auto lg:mb-0 mb-20">
+					<div class="w-[80%] h-[100%] grid place-items-center m-auto lg:mb-0 mb-20">
 						<img src="@/assets/logo-green.svg" alt="logo" style="width:100%">
 					</div>
 					<div class="col-span-2">
@@ -36,8 +36,8 @@
 						<RouterBtn link="/About" cta="Learn More" class="md:w-[250px]"></RouterBtn>
 					</div>
 					<div>
-						<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%] shadow-md shadow-green-200">
-							<img src="@/assets/Jerwin.jpg" alt="Jerwin">
+						<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%] shadow-md shadow-green-300">
+							<img src="@/assets/Jerwin/joe.jpg" alt="Jerwin" class="-top-8">
 						</div>
 					</div>
 				</div>

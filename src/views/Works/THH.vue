@@ -101,7 +101,7 @@
                         <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
                         <router-link to="/works/SkyFoodie" class="block p-4 text-black">SkyFoodie <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
                     </div>
-                    <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                    <!-- <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link> -->
                 </div>
             </div>
         </section>

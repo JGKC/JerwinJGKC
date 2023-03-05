@@ -7,25 +7,25 @@
     </div>
 
     <section class="w-full py-[80px]">
-		<div class="w-full max-w-[1440px] m-auto ">
-			<div class="w-[90%] m-auto font-['Quicksand'] flex flex-wrap gap-10 justify-between items-center">
-				<div>
+		<div class="w-full max-w-[1440px] m-auto">
+			<div class="w-[90%] m-auto font-['Quicksand'] grid grid-cols-5 gap-10 justify-between items-center">
+				<div class="col-span-5 md:col-span-3">
 					<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
-					<div class="md:w-[65ch] mb-4">
+					<div class="lg:w-[60ch] mb-4">
 						I am currently a Student studying Interaction Design in Nanyang Polytechnic, speacialising in User Experience 
 						Design and Web Development. I enjoy the process of designing and coding websites and mobile applications. 
 						During my free time, I play games and do some little fun creative coding projects! 
 					</div>
-					<div class="md:w-[65ch] mb-2">
+					<div class="lg:w-[60ch] mb-2">
 						Here's a shortcut button to download my resume!
 					</div>
 					<a :href="docu.resume.link" download
-					class="mt-4 relative flex w-[250px] justify-center rounded-md border border-transparent bg-[#20B2AA] py-2 px-4 text-sm font-bold font-['Quicksand'] text-white hover:bg-[#188781] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+					class="mt-4 relative flex lg:w-[250px] justify-center rounded-md border border-transparent bg-[#20B2AA] py-2 px-4 text-sm font-bold font-['Quicksand'] text-white hover:bg-[#188781] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
 					>Download Resume</a>
 				</div>
-				<div>
+				<div class="col-span-5 md:col-span-2">
 					<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%] shadow-md shadow-green-200">
-						<img src="@/assets/Jerwin.jpg" alt="Jerwin">
+						<img src="@/assets/Jerwin/joe.jpg" alt="Jerwin" class="-top-8">
 					</div>
 				</div>
 			</div>

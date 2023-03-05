@@ -46,10 +46,9 @@
                 <div class="w-[90%] m-auto">
                     <div class="flex justify-between ">
                         <router-link to="/works/SizGrill" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> SizGrill</router-link>
-                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
+                        <router-link to="/works" class="p-4 hidden lg:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
                         <router-link to="/works/Cafennie" class="block p-4 text-black">Cafennie <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
                     </div>
-                    <router-link to="/works" class="text-center block p-4 md:hidden text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
                 </div>
             </div>
         </section>

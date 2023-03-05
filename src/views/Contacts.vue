@@ -6,18 +6,18 @@
 		<div class="sticky top-0 left-0 h-[100vh]">
 			<div class="w-full m-auto flex flex-col lg:flex-row">
 				<div class="w-[90%] m-auto">
-					<div class="w-[80%]">
+					<div class="w-[75%] md:w-full lg:w-[65%]">
 						<TitleHead titleHead="HAPPY TO HEAR FROM YOU!" titleSub="CONTACTS PAGE" />
 					</div>
-					<div class="bg-[#ffffff40] rounded-[5px] p-[20px] text-[1em] font-[quicksand] font-medium space-y-4 mt-20">
-						<div>
+					<div class="bg-[#ffffff60] rounded-[5px] p-[20px] text-[1em] font-[quicksand] font-medium space-y-4 mt-20">
+						<div class="font-medium">
 							<b>For Official Collaboration and/or Busniess Offers:</b><br> 
 							Please contact me through Email or direct message in Twitter. 
 						</div>
-						<div><b>Location:</b> Based in Singapore</div>
-						<div><b>Available Contact Hours:</b> 12PM - 5PM (SGT/GMT+8)</div>
-						<div><b>EMAIL:</b> jerwingoh.work@gmail.com</div>
-						<div><b>TWITTER:</b> @Jerwin_JGKC</div>
+						<div class="font-medium"><b>Location:</b> Based in Singapore</div>
+						<!-- <div><b>Available Contact Hours:</b> 12PM - 5PM (SGT/GMT+8)</div> -->
+						<div class="font-medium"><b>Email:</b> jerwingoh.work@gmail.com</div>
+						<div class="font-medium"><b>Twitter:</b> @Jerwin_JGKC</div>
 					</div>
 				</div>
 			</div>
