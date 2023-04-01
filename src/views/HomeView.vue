@@ -1,35 +1,16 @@
 <template>
   	<div class="flex flex-col">
-    	<!-- section 1 -->
-    	<section id="home01" class="h-[100vh] w-full font-['Quicksand'] text-center grid p-10">
-			<div class="w-full max-w-[1440px] m-auto">
-				<div class="grid grid-cols-1 lg:grid-cols-3">
-					<div class="w-[80%] h-[100%] grid place-items-center m-auto lg:mb-0 mb-20">
-						<img src="@/assets/logo-green.svg" alt="logo" style="width:100%">
-					</div>
-					<div class="col-span-2">
-						<div id="hero" class="leading-10 mb-4 lg:leading-[4em]">
-							<div class="font-['Montserrat'] text-[2.5em] md:text-[3.25em] lg:text-[5em] font-bold text-[#20B2AA]">JERWIN GOH</div>
-							<div class="text-[1.1em] md:text-[1.5em] lg:text-[2.25em] font-semibold">UX DESIGN • WEB DEVELOPMENT</div>
-						</div>
-						<div id="home-text" class="w-[32ch] m-auto font-semibold md:text-[1.2em] lg:text-[1.5em] bg-[#20B2AA] text-[#fff] py-2">
-							<span class="font-['Montserrat'] font-bold">DESIGN</span> with the best of interest, 
-							<span class="font-['Montserrat'] font-bold">DEVELOP</span> to fulfil the dream.
-						</div>
-					</div>
-				</div>
-			</div>
 
-    	</section>
-    
+		<HomeHead/>
+	
 		<!-- section 2- Introduction -->
-		<section class="py-[80px]">
+		<section id="home02" class="py-[80px]">
 			<div class="w-full max-w-[1440px] m-auto">
 				<div class="w-[90%] m-auto grid grid-cols-1 md:grid-cols-2 justify-between flex-wrap  gap-10 items-center">
 					<div>
 						<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
 						<div class="w-full lg:w-[65ch] mb-4 font-[Quicksand]">
-							Currently a Student studying Interaction Design in Nanyang Polytechnic. 
+							Just graduated recently with Diploma in Interaction Design in Nanyang Polytechnic. 
 							I enjoy design and code websites and mobile applications. I believe that 
 							good designs bring the best expression of the products to the users.
 						</div>
@@ -45,7 +26,7 @@
     	</section>
     
 		<!-- section 3 - Skills -->
-    	<section class="py-[80px]" id="skills">
+    	<section id="home03" class="py-[100px]">
 			<div class="w-full max-w-[1440px] m-auto">
 				<div class="w-[90%] m-auto">
 					
@@ -62,8 +43,8 @@
 									<div class="font-[Quicksand] m-4 font-medium">{{skill.desc}}</div>
 									<!-- softwares -->
 									<div>
-										<div v-if="skill.id=='design'"><Softwares Ai Ps Id Pr Xd Figma class="gap-0"></Softwares></div>
-										<div v-if="skill.id=='web'"><Softwares VSCode HTML JS PHP Vue Laravel class="gap-0"></Softwares></div>
+										<div v-if="skill.id=='design'"><Softwares Ai Ps Id Pr Xd Figma class="!gap-0"></Softwares></div>
+										<div v-if="skill.id=='web'"><Softwares VSCode HTML JS PHP Vue Laravel class="!gap-0"></Softwares></div>
 									</div>
 									
 								</div>
@@ -76,7 +57,7 @@
     	</section>
     
 		<!-- section 4 - Works -->
-		<section class="py-[80px]">
+		<!-- <section id="home04" class="py-[80px]">
 			
 			<div class="w-full max-w-[1440px] m-auto">
 				
@@ -102,13 +83,56 @@
 	
 				</div>
 			</div>
+		</section> -->
+
+		<!-- section 4 - Works -->
+		<section id="home04" class="py-[100px]">
+			
+			<div class="w-full max-w-[1440px] m-auto">
+
+				<div class="w-[90%] m-auto">
+				
+					<div class="bg-[#EBFFEC] rounded-[10px] overflow-hidden p-20 grid grid-cols-2 items-center gap-16 border-2 border-green-200 shadow-md shadow-green-300">
+	
+						<div class="col-span-1 rounded-[5px] overflow-hidden">
+							<img src="@/assets/works/ITP/image1.png" alt="preview images">
+						</div>
+	
+						<div class="col-span-1 space-y-4">
+							<div class="leading-[200%]">
+								<div class="text-[1.2em] font-bold text-[#20B2AA] font-['Montserrat']">FEATURED PROJECT • 2023</div>
+								<div class="text-[2em] font-bold text-[#20B2AA] font-['Montserrat']">SDM INTERNSHIP PORTAL</div>
+							</div>
+							<div class="font-['Quicksand'] font-medium">
+								Internship Portal is a Conceptual Web Application created with Vue and Laravel. 
+								It Purposes is to bring better Quality of Life to the School Staff when managing 
+								Internship related workload.
+							</div>
+							<RouterBtn link="/works" cta="Check it out!" class="md:w-[250px]"></RouterBtn>
+						</div>
+					</div>
+	
+					<div class="mt-[100px] m-auto w-[80%]">
+						<div class="text-[2.5em] uppercase font-bold text-[#20B2AA] font-['Montserrat'] text-center">Looking for more Projects?</div>
+							<div class="flex items-center text-[1.55em] font-bold font-['Quicksand'] bg-white w-[50%] px-4 py-2 rounded-[10px] border-2 border-green-200 shadow-md shadow-green-100 my-8 m-auto">
+								<font-awesome-icon icon="fa-solid fa-search" size="md" class="pr-4"/>
+								<div id="project-word">Text</div>
+							</div>
+						
+						<RouterBtn link="/works" cta="Visit Works" class="md:w-[250px] m-auto mt-10 block"></RouterBtn>
+					</div>
+
+				</div>
+
+				
+			</div>
 		</section>
 
 
 		<!-- section 4 - Keep In Touch -->
-		<section class="bg-green-100">
+		<!-- <section class="bg-green-100">
 			<KeepInTouch></KeepInTouch>
-		</section>
+		</section> -->
 		
   	</div>
 </template>
@@ -118,12 +142,14 @@ import gsap from 'gsap'
 import KeepInTouch from '../components/KeepInTouch.vue'
 import RouterBtn from '../components/RouterBtn.vue'
 import Softwares from '../components/works/Softwares.vue'
+import HomeHead from '../components/HomeHead.vue'
 
 import Ecozean from "@/assets/works/Ecozean/Preview.png"
 import THH from "@/assets/works/THH/Preview.png"
 
 export default{
-	components:{ KeepInTouch, RouterBtn, Softwares },
+	name: "Home Page",
+	components:{ KeepInTouch, RouterBtn, Softwares, HomeHead },
 	mounted(){
         document.title = 'Home | JerwinJGKC'
     },
@@ -140,7 +166,7 @@ export default{
 					id:"web",
 					icon: "fa-solid fa-code",
 					name: "Web Developer",
-					desc: "As a Coder, I am able to code a fullstack webiste with the following softwares and languages.",
+					desc: "I am able to code a fullstack webiste with the following softwares and languages.",
 				},
 			],
 
@@ -177,39 +203,38 @@ export default{
 					icon:		"fa-brands fa-twitter",
 					link:		"https://twitter.com/Jerwin_JGKC"
 				},
+			],
+
+			projects:[
+				"User Interface", "User Experience", "Graphic Design", "Website Design", "Web Development", "Branding", "Jerwin Goh"
 			]
 		}
 	},
 	methods:{
+	
+	},
+	mounted(){
+		let project = document.getElementById("project-word")
+			let i = -1
+			let length = this.projects.length
 
+			project.innerText = this.projects[i]
 
+			setInterval(()=>{
+				if (i < length-1){i++} 
+				else{i = 0}
 
-		cursorShow(){
-			let cursor = document.getElementById("home-cursor")
-			gsap.to(cursor,{duration: 0.2, opacity: 1, display:"block"})
-		},
-		cursorHide(){
-			let cursor = document.getElementById("home-cursor")
-			gsap.to(cursor,{duration: 0.2, opacity: 0, display:"none"})
-		},
-		cursor(e){
-			let cursor = document.getElementById("home-cursor")
-			gsap.to(cursor, {
-				duration: .4,
-				opacity: 1,
-				x: e.clientX - 15,
-				y: e.clientY - 15,
-				display:"block"
-				
-			})
-		}
+				project.innerHTML = this.projects[i]
+
+			}, 4000)
+
 	}
 }
 </script>
 
 <style>
 
-#skills{
+#home03{
 	background:
 	linear-gradient(to top right,#94EB9B80,#ADD8E680),
 	url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
@@ -218,22 +243,33 @@ export default{
 
 #home-text{
 	overflow: hidden;
-	animation: typing 1.5s steps(30,end);
+	/* animation: typing 1.5s steps(30,end); */
 }
 
-@keyframes typing {
-  from { 
-	width: 0; 
+#project-word {
+	overflow: hidden; 
+	border-right: .05em solid #000;
 	white-space: nowrap;
+	max-width: max-content;
+	font-weight: 600;
+
+	animation: 
+    4s typing-erase 4s steps(50, end) infinite,
+    blink-caret .5s step-end infinite;
 }
-  50% { 
-	width: 35ch; 
-	white-space: wrap; 
+
+
+/* The type and erase effect */
+@keyframes typing-erase {
+  0% { width: 0 }
+  80% { width: 100% }
+  90%, 100% { width: 0 }
 }
-to { 
-	width: 32ch; 
-	white-space: wrap; 
-}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #000 }
 }
 
 	

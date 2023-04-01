@@ -104,9 +104,9 @@
 		</div>
 	</section>
 
-	<section class="bg-green-100">
+	<!-- <section class="bg-green-100">
 		<KeepInTouch></KeepInTouch>
-	</section>
+	</section> -->
 
   </div>
 

@@ -26,10 +26,10 @@
                             <Softwares Ai Ps Xd VSCode HTML CSS JS></Softwares>
                         </div>
 
-                        <div class="mb-4"> 
+                        <div class="mb-4 hidden lg:block"> 
                             <a href="https://ecozean.jerwingoh.com" target="_blank"
                             class="mt-4 relative flex w-[250px] justify-center rounded-md border border-transparent bg-[#20B2AA] py-2 px-4 text-sm font-bold font-['Quicksand'] text-white hover:bg-[#188781] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-                            >Visit Page</a>
+                            >Visit Website</a>
                         </div>
 
                     </div>
@@ -84,15 +84,16 @@
             <div class="w-full max-w-[1440px] m-auto">
                 <div class="w-[90%] m-auto">
                     <div class="text-[2em] font-bold font-['Montserrat']">GALLERY</div>
+                    <div class="italic font-['Quicksand']">Click the image to enlarge the view</div>
                     <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 lg:grid-cols-2 lg:grid-rows-auto">
                         
                         <div v-for="img in gallery">
-                            <div class="aspect-video bg-green-100 shadow-md border-2 border-green-400">
-                                <img :src="img.src" :alt=img.alt class="">
+                            <div class="aspect-video bg-green-100 shadow-md border-2 border-green-400" @click="ImageExpand">
+                                <img :src="img.src" :alt=img.alt>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="text-center italic">click the image to enlarge the view</div> -->
+                    
                 </div>
             </div>
         </section>
@@ -122,17 +123,21 @@
             </div>
         </section>
 
-        <section class=" bg-teal-100">
-            <div class="w-full max-w-[1440px] m-auto">
-                <div class="w-[90%] m-auto">
-                    <div class="flex justify-between ">
-                        <router-link to="/works/Meditime" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> Meditime</router-link>
-                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
-                        <router-link to="/works/THH" class="block p-4 text-black">THH <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
-                    </div>
-                </div>
+        <ProjectFooter
+            PrevLink="Meditime"
+            PrevName="Meditime"
+            NextLink="THH"
+            NextName="THH"
+        ></ProjectFooter>
+
+        <div class="bg-[#000000a0] z-[100000] fixed top-0 left-0 w-full h-[100vh] grid place-content-center" v-show="imgExpand">
+            <div @click="ImageClose" class="cursor-pointer"><font-awesome-icon icon="fa-solid fa-times" size="2xl"/></div>
+            <div class="aspect-video w-[60rem]">
+                <img id="imgExpand" src="" alt="">
+                <div id="altText" class="text-white text-center m-2"></div>
             </div>
-        </section>
+        </div>
+
 
     </div>
 </template>
@@ -143,42 +148,44 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
 import Preview from "@/assets/works/Ecozean/Preview.png"
-import Image1 from "@/assets/works/Ecozean/image1.png"
-import Image2 from "@/assets/works/Ecozean/image2.png"
-import Image3 from "@/assets/works/Ecozean/image3.png"
-import Image5 from "@/assets/works/Ecozean/image5.png"
+import Image1 from "@/assets/works/Ecozean/Image1.png"
+import Image2 from "@/assets/works/Ecozean/Image2.png"
+import Image3 from "@/assets/works/Ecozean/Image3.png"
+import Image4 from "@/assets/works/Ecozean/Image4.png"
+import ProjectFooter from '../../components/works/ProjectFooter.vue';
 
 
 export default{
-    components: { TitleHead, ProjectHero, Softwares },
+    components: { TitleHead, ProjectHero, Softwares, ProjectFooter },
     mounted(){
         document.title = 'Ecozean | JerwinJGKC'
     },
     data(){
         return{
             heroImg:Preview,
+            imgExpand:false,
             gallery:[
                 {
                     src: Image1,
-                    alt: "overview image"
+                    alt: "Image: Overview"
                 },
                 {
                     src: Image2,
-                    alt: "about image"
+                    alt: "Image: Colours & Components"
                 },
                 {
                     src: Image3,
-                    alt: "features image"
+                    alt: "Image: Mockups"
                 },
                 {
-                    src: Image5,
-                    alt: "error404 image"
+                    src: Image4,
+                    alt: "Image: Mockups 2"
                 },
             ],
             acknowlegdement:[
                 {
                     name: "Yang Xinyue",
-                    role:"Art Directon, UI/UX Designer",
+                    role:"Art Directon, UI/UX",
                     socials:{
                         linkedin: {
                             icon:"fa-brands fa-linkedin-in",
@@ -192,7 +199,7 @@ export default{
                 },
                 {
                     name: "Kendrick Pang",
-                    role:"Model Concept, UI/UX Designer",
+                    role:"Model Concept, UI/UX",
                     socials:{
                         linkedin: {
                             icon:"fa-brands fa-linkedin-in",
@@ -203,11 +210,11 @@ export default{
                             http:"",
                         },
 
-                    }
+                    } 
                 },
                 {
                     name: "Hilma",
-                    role:"Branding, UI/UX Designer",
+                    role:"Branding, UI/UX",
                     socials:{
                         linkedin: {
                             icon:"fa-brands fa-linkedin-in",
@@ -220,6 +227,21 @@ export default{
                     }
                 }
             ]
+        }
+    },
+    methods:{
+        ImageExpand(evt){
+            this.imgExpand = true
+
+            let img = document.getElementById("imgExpand")
+            let alt = document.getElementById("altText")
+
+            img.src = evt.target.src
+            img.alt = evt.target.alt
+            alt.innerHTML = evt.target.alt
+        },
+        ImageClose(){
+            this.imgExpand = false
         }
     }
 }

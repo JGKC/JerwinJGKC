@@ -48,16 +48,16 @@
 import TitleHead from '../components/TitleHead.vue'
 import WorksCard from '../components/WorksCard.vue'
 
-import Ecozean from '../assets/works/Ecozean/Preview.png'
-import THH from '../assets/works/THH/Preview.png'
-import SkyFoodie from '../assets/works/SkyFoodie/Preview.png'
-import IntroToWeiqi from '../assets/works/IntroToWeiqi/Preview.png'
-import SizGrill from '../assets/works/SizGrill/Preview.png'
-import AsianC from '../assets/works/AsianCompletionist/Preview.png'
-import Cafennie from '../assets/works/Cafennie/Preview.png'
-import Meditime from '../assets/works/Meditime/Preview.png'
-import NutriGrade from '../assets/works/NutriGrade/Preview.png'
-import ITP from '../assets/works/ITP/Preview.png'
+import Ecozean from         '../assets/works/Ecozean/Preview.png'
+import THH from             '../assets/works/THH/Preview.png'
+import SkyFoodie from       '../assets/works/SkyFoodie/Preview.png'
+import IntroToWeiqi from    '../assets/works/IntroToWeiqi/Preview.png'
+import SizGrill from        '../assets/works/SizGrill/Preview.png'
+import AsianC from          '../assets/works/AsianCompletionist/Preview.png'
+import Cafennie from        '../assets/works/Cafennie/Preview.png'
+import Meditime from        '../assets/works/Meditime/Preview.png'
+import NutriGrade from      '../assets/works/NutriGrade/Preview.png'
+import ITP from             '../assets/works/ITP/Preview.png'
 
 
 export default{
@@ -74,32 +74,32 @@ export default{
 
                 {
                     tag:"UX Design",
-                    class:"UX"
+                    class:"UX",
                 },
                 {
                     tag:"UI Design",
-                    class:"UI"
+                    class:"UI",
                 },
 
                 {
                     tag:"Frontend Dev",
-                    class:"Frontend"
+                    class:"Frontend",
                 },
                 {
                     tag:"Backend Dev",
-                    class:"Backend"
+                    class:"Backend",
                 },
                 {
                     tag:"Graphic Design",
-                    class:"Graphic"
+                    class:"Graphic",
                 },
                 {
                     tag:"Mobile App",
-                    class:"App"
+                    class:"App",
                 },
                 {
                     tag:"Branding",
-                    class:"Branding"
+                    class:"Branding",
                 },
             ],
             works:[
@@ -264,7 +264,7 @@ input[type="checkbox"]{
 } 
 
 .filter label{
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 5px 10px;
     border:1px solid #777
 }

@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { 
     faHouse, faUserTie, faPenRuler, faAddressBook, faBars, // Menu
 
-    faPeopleGroup, faRocket, faCode, // Home Page
+    faPeopleGroup, faRocket, faCode, faSearch, // Home Page
 
     faCircleInfo, faTimeline, faBullseye, faEnvelope, faQuoteLeft, faTimes, faUpRightFromSquare, faFilePdf, faChevronLeft, faChevronRight, // Project Info
 
@@ -44,7 +44,7 @@ library.add(
 
     faHtml5, faCss3Alt, faJs, faVuejs, faPhp, faLaravel,// Skills
 
-    faQuoteLeft, faTimes, faUpRightFromSquare, faFilePdf, faChevronLeft, faChevronRight
+    faQuoteLeft, faTimes, faUpRightFromSquare, faFilePdf, faChevronLeft, faChevronRight, faSearch
     )
 
 
