@@ -148,10 +148,10 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
 import Preview from "@/assets/works/Ecozean/Preview.png"
-import Image1 from "@/assets/works/Ecozean/Image1.png"
-import Image2 from "@/assets/works/Ecozean/Image2.png"
-import Image3 from "@/assets/works/Ecozean/Image3.png"
-import Image4 from "@/assets/works/Ecozean/Image4.png"
+import Image1 from "@/assets/works/Ecozean/image1.png"
+import Image2 from "@/assets/works/Ecozean/image2.png"
+import Image3 from "@/assets/works/Ecozean/image3.png"
+import Image4 from "@/assets/works/Ecozean/image4.png"
 import ProjectFooter from '../../components/works/ProjectFooter.vue';
 
 
