@@ -116,10 +116,10 @@ import ProjectInfo from '../../components/works/ProjectInfo.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
 import Preview from "@/assets/works/THH/Preview.png"
-import Image1 from "@/assets/works/THH/Image1.png"
-import Image2 from "@/assets/works/THH/Image2.png"
-import Image3 from "@/assets/works/THH/Image3.png"
-import Image4 from "@/assets/works/THH/Image4.png"
+import Image1 from "@/assets/works/THH/image1.png"
+import Image2 from "@/assets/works/THH/image2.png"
+import Image3 from "@/assets/works/THH/image3.png"
+import Image4 from "@/assets/works/THH/image4.png"
 
 
 
