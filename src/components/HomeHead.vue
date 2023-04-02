@@ -27,7 +27,7 @@
             <div class="w-[90%] m-auto grid grid-cols-1 lg:grid-cols-5 justify-center items-center">
                 
                 <div class="grid place-items-center col-span-2">
-                    <img src="@/assets/logo-text.svg" alt="logo" class="w-[50%] mb-16 lg:w-full">
+                    <img src="@/assets/logo-text.svg" alt="logo" class="max-w-[500px] mb-16 lg:w-full">
                     <!-- <div>
                         <span class="font-['Montserrat'] text-[#20B2AA] text-[2.25em] lg:text-[4em] leading-[100%] font-extrabold">JERWIN GOH</span><br>
                         <span class="font-['Quicksand'] font-medium text-[#436964] text-[1em] lg:text-[1.8em] ">UX DESIGN • WEB DEVELOPMENT</span>

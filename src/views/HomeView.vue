@@ -10,11 +10,11 @@
 					<div>
 						<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
 						<div class="w-full lg:w-[65ch] mb-4 font-[Quicksand]">
-							Just graduated recently with Diploma in Interaction Design in Nanyang Polytechnic. 
+							Just graduated recently with Diploma in Interaction Design. 
 							I enjoy design and code websites and mobile applications. I believe that 
 							good designs bring the best expression of the products to the users.
 						</div>
-						<RouterBtn link="/About" cta="Learn More" class="md:w-[250px]"></RouterBtn>
+						<RouterBtn link="/About" cta="Learn More about Jerwin" class="md:w-[250px]"></RouterBtn>
 					</div>
 					<div>
 						<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%] shadow-md shadow-green-300">
@@ -30,13 +30,13 @@
 			<div class="w-full max-w-[1440px] m-auto">
 				<div class="w-[90%] m-auto">
 					
-					<div class="text-[3em] font-bold font-['Montserrat'] text-center mb-8 uppercase">I am a...</div>
+					<div class="text-[2em] lg:text-[3em] font-bold font-['Montserrat'] text-center mb-8 uppercase">I am a...</div>
 					
-					<div class="grid md:grid-cols-2 gap-8 m-auto">
+					<div class="grid place-items-center grid-cols-1 md:grid-cols-2 gap-8 m-auto">
 						<div v-for="skill in skills" class="grid place-items-center">
 
 							<!-- content -->
-							<div class="w-[90%] bg-[#ffffffd0] rounded-[5px] backdrop:blur-lg shadow-lg p-8 lg:p-20 space-y-4">
+							<div class="w-[90%] m-auto bg-[#ffffffd0] rounded-[5px] backdrop:blur-lg shadow-lg p-8 lg:p-20 space-y-4">
 								<div class="w-full grid place-content-center"><font-awesome-icon :icon=skill.icon size="2xl" /></div>
 								<div class="flex flex-col items-center text-center">
 									<div class="text-[1.5em] font-bold font-[Montserrat]">{{skill.name}}</div>
@@ -92,16 +92,16 @@
 
 				<div class="w-[90%] m-auto">
 				
-					<div class="bg-[#EBFFEC] rounded-[10px] overflow-hidden p-20 grid grid-cols-2 items-center gap-16 border-2 border-green-200 shadow-md shadow-green-300">
+					<div class="bg-[#EBFFEC] rounded-[10px] overflow-hidden p-5 lg:p-20 grid lg:grid-cols-2 items-center gap-6 lg:gap-16 border-2 border-green-200 shadow-md shadow-green-300">
 	
 						<div class="col-span-1 rounded-[5px] overflow-hidden">
 							<img src="@/assets/works/ITP/image1.png" alt="preview images">
 						</div>
-	
+
 						<div class="col-span-1 space-y-4">
-							<div class="leading-[200%]">
-								<div class="text-[1.2em] font-bold text-[#20B2AA] font-['Montserrat']">FEATURED PROJECT • 2023</div>
-								<div class="text-[2em] font-bold text-[#20B2AA] font-['Montserrat']">SDM INTERNSHIP PORTAL</div>
+							<div class="leading-[150%] lg:leading-[200%]">
+								<div class="lg:text-[1.2em] font-bold text-[#20B2AA] font-['Montserrat']">FEATURED PROJECT • 2023</div>
+								<div class="text-[1.5em] lg:text-[2em] font-bold text-[#20B2AA] font-['Montserrat']">SDM INTERNSHIP PORTAL</div>
 							</div>
 							<div class="font-['Quicksand'] font-medium">
 								Internship Portal is a Conceptual Web Application created with Vue and Laravel. 
@@ -113,8 +113,8 @@
 					</div>
 	
 					<div class="mt-[100px] m-auto w-[80%]">
-						<div class="text-[2.5em] uppercase font-bold text-[#20B2AA] font-['Montserrat'] text-center">Looking for more Projects?</div>
-							<div class="flex items-center text-[1.55em] font-bold font-['Quicksand'] bg-white w-[50%] px-4 py-2 rounded-[10px] border-2 border-green-200 shadow-md shadow-green-100 my-8 m-auto">
+						<div class="text-[1.5em] lg:text-[2.5em] uppercase font-bold text-[#20B2AA] font-['Montserrat'] text-center">Looking for more Projects?</div>
+							<div class="flex items-center text-[1em] lg:text-[1.55em] font-bold font-['Quicksand'] bg-white lg:w-[50%] px-4 py-2 rounded-[10px] border-2 border-green-200 shadow-md shadow-green-100 my-8 m-auto">
 								<font-awesome-icon icon="fa-solid fa-search" size="md" class="pr-4 text-[#20B2AA]"/>
 								<div id="project-word">Interaction Design</div>
 							</div>
@@ -127,7 +127,6 @@
 				
 			</div>
 		</section>
-
 
 		<!-- section 4 - Keep In Touch -->
 		<!-- <section class="bg-green-100">
