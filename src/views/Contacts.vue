@@ -116,13 +116,13 @@ import TitleHead from '../components/TitleHead.vue'
 			}
 		},
 		methods:{
-			resetForm(){
-				this.form.name = ""
-				this.form.email = ""
-				this.form.subject = ""
-				this.form.message = ""
-				}
-			},
+			// resetForm(){
+			// 	this.form.name = ""
+			// 	this.form.email = ""
+			// 	this.form.subject = ""
+			// 	this.form.message = ""
+			// 	}
+			// },
 			encode(data){
 				return Object.keys(data)
 				.map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
@@ -142,8 +142,8 @@ import TitleHead from '../components/TitleHead.vue'
 				.then(()=> console.log('successfully sent'))
 				.catch(e=> console.error(e))
 			}
-
 		}
+	}
 </script>
 
 <style>
