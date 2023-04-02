@@ -143,8 +143,6 @@ import TitleHead from '../components/TitleHead.vue'
 					console.log('successfully sent')
 				)
 				.catch((e)=> console.error(e))
-
-				resetForm();
 			}
 			// submitForm(ev){
 			// 	ev.preventDefault()
