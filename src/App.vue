@@ -8,7 +8,7 @@ import TopNavBar from './components/NavBar/TopNavBar.vue';
 
 <template>
   <div class="flex flex-col lg:flex-row">
-    <SideNavBar class="sticky top-0"/>
+    <SideNavBar class="sticky top-0 z-50"/>
     <div class="static appRight">
       <!-- <TopNavBar class="sticky top-0 z-50" /> -->
       <RouterView class="RouterView"/>

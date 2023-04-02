@@ -58,13 +58,15 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(45deg, #94eb9b, #add8e6);
   background-size: 400% 400%;
 
+  z-index: 10;
+
   -webkit-animation: bgChange 14s ease infinite;
   -moz-animation: bgChange 14s ease infinite;
   -o-animation: bgChange 14s ease infinite;
   animation: bgChange 14s ease infinite;
 
 /* cursor: none; */
-overflow: hidden;
+  overflow: hidden;
 }
 
 @-webkit-keyframes bgChange {

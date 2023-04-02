@@ -12,12 +12,10 @@
 					<div class="bg-[#ffffff60] rounded-[5px] p-[20px] text-[1em] font-[quicksand] font-medium space-y-4 mt-20">
 						<div class="font-medium">
 							<b>For Official Collaboration and/or Busniess Offers:</b><br> 
-							Please contact me through Email or direct message in Twitter. 
+							Please contact me through Email. 
 						</div>
-						<div class="font-medium"><b>Location:</b> Based in Singapore</div>
+						<!-- <div class="font-medium"><b>Location:</b> Based in Singapore</div> -->
 						<!-- <div><b>Available Contact Hours:</b> 12PM - 5PM (SGT/GMT+8)</div> -->
-						<div class="font-medium"><b>Email:</b> jerwingoh.work@gmail.com</div>
-						<div class="font-medium"><b>Twitter:</b> @Jerwin_JGKC</div>
 					</div>
 				</div>
 			</div>
@@ -59,9 +57,9 @@
 		</div>
 	</section>
 
-	<section class="bg-green-100">
+	<!-- <section class="bg-green-100">
 		<KeepInTouch></KeepInTouch>
-	</section>
+	</section> -->
 </template>
 
 <script>

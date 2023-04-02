@@ -2,17 +2,17 @@
     <div class="w-full flex flex-col lg:hidden ">
         
         <div class="w-full h-[80px] bg-white px-[20px] flex place-items-center justify-between z-10 gap-4 bk-shadow">
-                <RouterLink 
-                    v-for="item in nav"
-                    :to="item.to" 
-                    active-class="pointer-events-none bg-[#20B2AA] text-white mb-12"             
-                    :class="[this.$route.name === item.to.name
-                        ? 'BotNavBtn'
-                        : 'BotNavBtn'
-                    ]">
-                    <font-awesome-icon :icon="item.icon" size="xl"/>
-                    <div>{{item.name}}</div>
-                </RouterLink>
+            <RouterLink 
+                v-for="item in nav"
+                :to="item.to" 
+                active-class="pointer-events-none bg-[#20B2AA] text-white mb-12"             
+                :class="[this.$route.name === item.to.name
+                    ? 'BotNavBtn'
+                    : 'BotNavBtn','text-[#20B2AA]'
+                ]">
+                <font-awesome-icon :icon="item.icon" size="xl"/>
+                <div>{{item.name}}</div>
+            </RouterLink>
 
             <!-- <RouterLink to="/" class="BotNavBtn">
                 <div class="navIcon"><font-awesome-icon icon="fa-solid fa-home" size="xl"/></div>
