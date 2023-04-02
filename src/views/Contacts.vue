@@ -25,6 +25,9 @@
 				<div class="w-[80%]">
 					<div class="text-[2em] font-bold font-['Montserrat']">CONTACT FORM</div>
 					<form @submit.prevent="handleSubmit" name="contact" method="POST" class="space-y-4" netlify>
+						<div v-show="formSuccess" class="bg-green-200 text-green-700 font-bold p-3 rounded-[5px]">
+							Form successfully Submitted.
+						</div>
 						<div class="flex flex-col">
 							<label for="name" class="mb-1">Name</label>
 							<input v-model="form.name" id="name" name="name" type="text" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm" placeholder="Name"/>
@@ -112,17 +115,25 @@ import TitleHead from '../components/TitleHead.vue'
 					email:"",
 					subject:"",
 					message:""
-				}
+				},
+				formSuccess : false
 			}
 		},
 		methods:{
-			// resetForm(){
-			// 	this.form.name = ""
-			// 	this.form.email = ""
-			// 	this.form.subject = ""
-			// 	this.form.message = ""
-			// 	}
-			// },
+			resetForm(){
+				this.formSuccess=true;
+
+				this.form.name = ""
+				this.form.email = ""
+				this.form.subject = ""
+				this.form.message = ""
+
+				setTimeout(()=>{
+					this.formSuccess=false
+				},10000)
+
+
+				},
 			encode(data){
 				return Object.keys(data)
 				.map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
@@ -141,6 +152,8 @@ import TitleHead from '../components/TitleHead.vue'
 				})
 				.then(()=> console.log('successfully sent'))
 				.catch(e=> console.error(e))
+
+				resetForm();
 			}
 		}
 	}
