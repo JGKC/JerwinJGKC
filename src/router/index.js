@@ -64,6 +64,16 @@ const router = createRouter({
       name: 'meditime',
       component: () => import('../views/Works/Meditime.vue')
     },
+    {
+      path: '/works/iwp',
+      name: 'iwp',
+      component: () => import('../views/Works/IWP.vue')
+    },
+    {
+      path: '/works/nutrigrade',
+      name: 'nutrigrade',
+      component: () => import('../views/Works/NutriGrade.vue')
+    },
     { 
       path: '/:pathMatch(.*)*',
       name: 'NotFound', 

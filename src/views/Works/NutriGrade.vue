@@ -66,8 +66,8 @@ import ProjectHero from '../../components/works/ProjectHero.vue';
 import ProjectInfo from '../../components/works/ProjectInfo.vue';
 import Softwares from '../../components/works/Softwares.vue';
 
-import Preview from "../../assets/works/NutriGrade/Preview.png"
-import Image1 from "../../assets/works/NutriGrade/image.png"
+import Preview from "@/assets/works/NutriGrade/Preview.png"
+import Image1 from "@/assets/works/NutriGrade/image.png"
 
 export default{
     name: "NutriGrade",

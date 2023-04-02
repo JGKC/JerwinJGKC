@@ -23,17 +23,17 @@
         </div>
     </div> -->
 
-    <RouterLink v-show=link :to="link" class="rounded-[10px] overflow-hidden">
-        <div class="worksCard w-full rounded-[10px] overflow-hidden shadow-lg transition-opacity relative" @mouseover="cardHover" @mouseleave="cardHover2">
+    <RouterLink v-show=link :to="link" class="worksCard rounded-[10px] overflow-hidden">
+        <div class="w-full rounded-[10px] overflow-hidden shadow-lg transition-opacity relative"  @mouseover="cardHover" @mouseleave="cardHover2">
             
             <div class="w-full aspect-video">
                 <img :src=img alt="Preview Image" class="absolute">
 
-                <div class="hoverInfo h-full w-full bg-gradient-to-tr from-[#94EB9B] via-[#ADD8E680] to-transparent hidden">
+                <div class="hoverInfo h-full w-full bg-gradient-to-tr from-[#94EB9B] via-[#ADD8E680] to-transparent opacity-0">
                     <div class="py-[15px] px-[10px] font-[Quicksand] absolute text-black w-full bottom-[0.1px] text-[1.15em]">
                         <div class="text-[22px] font-bold mb-1 font-[Montserrat]">{{title}}</div>
                         <div v-for="tag in tags" class="inline-block worksTag">
-                            <div class="text-[12px] uppercase p-[5px] bg-gray-200 rounded-[5px] mr-[5px] font-bold">{{tag}}</div> 
+                            <div class="text-[12px] uppercase p-[5px] bg-gray-200 rounded-[5px] mr-[5px] font-bold">{{tag}}</div>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ import RouterBtn from './RouterBtn.vue';
                 let works = Array.from(document.getElementsByClassName("worksCard"))
 
                 works.forEach(x =>{
-                    x.style.opacity = 0.8
+                    x.style.opacity = 0.85
                 })
 
                 let card = event.target.closest(".worksCard")
@@ -104,8 +104,8 @@ import RouterBtn from './RouterBtn.vue';
 <style>
 
 .worksCard:hover .hoverInfo{
-    display: block;
-    transition: display 0.5s ease;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 </style>

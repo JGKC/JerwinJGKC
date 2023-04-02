@@ -48,8 +48,8 @@
 import TitleHead from '../components/TitleHead.vue'
 import WorksCard from '../components/WorksCard.vue'
 
-import Ecozean from         '../assets/works/Ecozean/Preview.png'
-import THH from             '../assets/works/THH/Preview.png'
+import Ecozean from         '../assets/works/Ecozean/image1.png'
+import THH from             '../assets/works/THH/image1.png'
 import SkyFoodie from       '../assets/works/SkyFoodie/Preview.png'
 import IntroToWeiqi from    '../assets/works/IntroToWeiqi/Preview.png'
 import SizGrill from        '../assets/works/SizGrill/Preview.png'
@@ -57,7 +57,7 @@ import AsianC from          '../assets/works/AsianCompletionist/Preview.png'
 import Cafennie from        '../assets/works/Cafennie/Preview.png'
 import Meditime from        '../assets/works/Meditime/Preview.png'
 import NutriGrade from      '../assets/works/NutriGrade/Preview.png'
-import ITP from             '../assets/works/ITP/Preview.png'
+import ITP from             '../assets/works/ITP/image1.png'
 
 
 export default{
@@ -125,6 +125,14 @@ export default{
                 },
                 {
                     id: "3",
+                    title: "Internship Portal",
+                    img: ITP,
+                    tags: ["Frontend","Backend","UI","UX"],
+                    description: "COMING VERY SOON",
+                    link: "/Works/IWP"
+                },
+                {
+                    id: "4",
                     title: "Sky Foodie",
                     img: SkyFoodie,
                     tags: ["Frontend","Web-App"],
@@ -132,7 +140,7 @@ export default{
                     link: "/Works/SkyFoodie"
                 },
                 {
-                    id: "4",
+                    id: "5",
                     title: "Intro to Weiqi",
                     img: IntroToWeiqi,
                     tags: ["Frontend","Web-App"],
@@ -140,7 +148,7 @@ export default{
                     link: "/Works/IntroWeiqi"
                 },
                 {
-                    id: "5",
+                    id: "6",
                     title: "SizGrill",
                     img: SizGrill,
                     tags: ["Branding","Graphic"],
@@ -148,7 +156,7 @@ export default{
                     link: "/Works/SizGrill"
                 },
                 {
-                    id: "6",
+                    id: "7",
                     title: "Asian Completionist",
                     img: AsianC,
                     tags: ["Graphic"],
@@ -156,37 +164,31 @@ export default{
                     link: "/Works/AsianCompletionist"
                 },
                 {
-                    id: "7",
-                    title: "Cafennie",
-                    img: Cafennie,
-                    tags: ["UX","UI","Mob-App"],
-                    description: "Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses. ",
-                    link: "/Works/Cafennie"
-                },
-                {
                     id: "8",
-                    title: "Meditime",
-                    img: Meditime,
-                    tags: ["UX","UI","Mob-App"],
-                    description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
-                    link: "/Works/Meditime"
-                },
-                {
-                    id: "9",
                     title: "NutriGrade Poster",
                     img: NutriGrade,
                     tags: ["Graphic"],
                     description: "COMING VERY SOON",
-                    link: "/Works"
+                    link: "/Works/NutriGrade"
                 },
-                {
-                    id: "10",
-                    title: "Internship Portal",
-                    img: ITP,
-                    tags: ["Frontend","Backend","UI","UX"],
-                    description: "COMING VERY SOON",
-                    link: "/Works"
-                },
+                // {
+                //     id: "7",
+                //     title: "Cafennie",
+                //     img: Cafennie,
+                //     tags: ["UX","UI","Mob-App"],
+                //     description: "Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses. ",
+                //     link: "/Works/Cafennie"
+                // },
+                // {
+                //     id: "8",
+                //     title: "Meditime",
+                //     img: Meditime,
+                //     tags: ["UX","UI","Mob-App"],
+                //     description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
+                //     link: "/Works/Meditime"
+                // },
+
+
             ]
         }
     },
@@ -214,6 +216,9 @@ export default{
             let worksTag = Array.from(document.getElementsByTagName("label"))
 
             if (this.checkedWorks.length > 0){
+
+                console.log(this.checkedWorks)
+                console.log(worksEl)
 
                 worksEl.forEach(y =>{
                     y.style.display = "none"
