@@ -1,32 +1,48 @@
 <template>
-    <div class="worksCard w-full min-h-[350px] rounded-[10px] overflow-hidden bg-[#fff] shadow-lg transition-opacity relative" @mouseover="cardHover" @mouseleave="cardHover2">
+    <!-- <div class="worksCard w-full min-h-[300px] rounded-[10px] overflow-hidden bg-[#fff] shadow-lg transition-opacity relative" @mouseover="cardHover" @mouseleave="cardHover2">
         <div class="w-full aspect-video bg-yellow-100 overflow-hidden">
             <img :src=img alt="Preview Image">
         </div>
         <div class="py-[15px] px-[10px] font-[Quicksand]">
-            <!-- Work Title -->
             <div class="text-[22px] font-bold mb-2 font-[Montserrat]">{{title}}</div>
-            <!-- Tags -->
             <div class="mb-2">
                 <div v-for="tag in tags" class="inline-block worksTag">
                     <div class="text-[12px] uppercase p-[5px] bg-gray-200 rounded-[5px] mr-[5px] font-bold">{{tag}}</div> 
                 </div>
             </div>
-            <!-- Description -->
-            <div class="leading-[120%] min-h-[50px]">
-                {{description}}
-            </div>
+            <div class="leading-[120%] min-h-[50px]" hidden>{{description}}</div>
         </div>
-        <!-- Link -->
-        <div class="p-[10px] pt-0 bottom-0 w-full mt-[10px]">
+        <div class="p-[10px] pt-0 bottom-0 w-full mt-0">
             <RouterBtn
                 v-show=link
                 :link=link
                 cta="View More"
+                class="mt-0"
             >
             </RouterBtn>
         </div>
-    </div>
+    </div> -->
+
+    <RouterLink v-show=link :to="link" class="rounded-[10px] overflow-hidden">
+        <div class="worksCard w-full rounded-[10px] overflow-hidden shadow-lg transition-opacity relative" @mouseover="cardHover" @mouseleave="cardHover2">
+            
+            <div class="w-full aspect-video">
+                <img :src=img alt="Preview Image" class="absolute">
+
+                <div class="hoverInfo h-full w-full bg-gradient-to-tr from-[#94EB9B] via-[#ADD8E680] to-transparent hidden">
+                    <div class="py-[15px] px-[10px] font-[Quicksand] absolute text-black w-full bottom-[0.1px] text-[1.15em]">
+                        <div class="text-[22px] font-bold mb-1 font-[Montserrat]">{{title}}</div>
+                        <div v-for="tag in tags" class="inline-block worksTag">
+                            <div class="text-[12px] uppercase p-[5px] bg-gray-200 rounded-[5px] mr-[5px] font-bold">{{tag}}</div> 
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </RouterLink>
+
+
 </template>
 
 <script>
@@ -67,10 +83,11 @@ import RouterBtn from './RouterBtn.vue';
                 let works = Array.from(document.getElementsByClassName("worksCard"))
 
                 works.forEach(x =>{
-                    x.style.opacity = 0.75
+                    x.style.opacity = 0.65
                 })
 
-                event.target.closest(".worksCard").style.opacity = 1
+                let card = event.target.closest(".worksCard")
+                card.style.opacity = 1
                 
             },
             cardHover2(){
@@ -83,3 +100,12 @@ import RouterBtn from './RouterBtn.vue';
     }
     
 </script>
+
+<style>
+
+.worksCard:hover .hoverInfo{
+    display: block;
+    transition: display 0.5s ease;
+}
+
+</style>

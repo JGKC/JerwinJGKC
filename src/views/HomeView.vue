@@ -115,8 +115,8 @@
 					<div class="mt-[100px] m-auto w-[80%]">
 						<div class="text-[2.5em] uppercase font-bold text-[#20B2AA] font-['Montserrat'] text-center">Looking for more Projects?</div>
 							<div class="flex items-center text-[1.55em] font-bold font-['Quicksand'] bg-white w-[50%] px-4 py-2 rounded-[10px] border-2 border-green-200 shadow-md shadow-green-100 my-8 m-auto">
-								<font-awesome-icon icon="fa-solid fa-search" size="md" class="pr-4"/>
-								<div id="project-word">Text</div>
+								<font-awesome-icon icon="fa-solid fa-search" size="md" class="pr-4 text-[#20B2AA]"/>
+								<div id="project-word">Interaction Design</div>
 							</div>
 						
 						<RouterBtn link="/works" cta="Visit Works" class="md:w-[250px] m-auto mt-10 block"></RouterBtn>

@@ -13,6 +13,7 @@ import TopNavBar from './components/NavBar/TopNavBar.vue';
       <!-- <TopNavBar class="sticky top-0 z-50" /> -->
       <RouterView class="RouterView"/>
       <Footer />
+      <div class="h-[80px] lg:hidden"></div>
       <BottomNavBar class="fixed bottom-0 z-50" />
     </div>
   </div>

@@ -24,14 +24,14 @@
     
     <section id="home01" class="h-[100vh] w-full text-center grid p-10">
         <div class="w-full max-w-[1440px] m-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-5 justify-center items-center">
+            <div class="w-[90%] m-auto grid grid-cols-1 lg:grid-cols-5 justify-center items-center">
                 
                 <div class="grid place-items-center col-span-2">
-                    <img src="@/assets/logo-green.svg" alt="logo" class="w-[60%] mb-[30px]">
-                    <div>
+                    <img src="@/assets/logo-text.svg" alt="logo" class="w-[50%] mb-16 lg:w-full">
+                    <!-- <div>
                         <span class="font-['Montserrat'] text-[#20B2AA] text-[2.25em] lg:text-[4em] leading-[100%] font-extrabold">JERWIN GOH</span><br>
                         <span class="font-['Quicksand'] font-medium text-[#436964] text-[1em] lg:text-[1.8em] ">UX DESIGN • WEB DEVELOPMENT</span>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-span-3 font-['Montserrat']">
                     <div id="home-text" class="m-auto md:text-[1.2em] lg:text-[1.5em] bg-[#20B2AA] text-[#fff] leading-[180%] p-6 w-fit">

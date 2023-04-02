@@ -53,7 +53,7 @@
     <footer class="flex flex-col w-full font-['Quicksand']">
 
         <div id="footerGrad" class="w-full h-3"></div>
-        <div class="bg-[#20B2AA] p-10 flex place-content-center space-x-20" >
+        <div class="bg-[#20B2AA] p-10 flex place-content-center space-y-5 lg:space-y-0 lg:space-x-20 flex-wrap">
                 <!-- Logo -->
                 <div class="grid place-items-center">
                     <img src="@/assets/logo-gradient.svg" alt="logo" style="width:60%; margin-bottom: 20px;">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
     
-                <div id="footerContent">
+                <div id="footerContent" class="">
                     <div class="font-['Montserrat'] font-bold text-[1.5em] mb-2">
                         KEEP-IN-TOUCH
                     </div>

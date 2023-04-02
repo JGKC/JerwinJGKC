@@ -26,7 +26,7 @@
 
                 
                 <!-- Cards -->
-                <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:grid-rows-auto">
+                <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-auto">
                     <WorksCard 
                         v-for="work in works"
                         :class="work.tags"
@@ -95,7 +95,11 @@ export default{
                 },
                 {
                     tag:"Mobile App",
-                    class:"App",
+                    class:"Mob-App",
+                },
+                {
+                    tag:"Web App",
+                    class:"Web-App",
                 },
                 {
                     tag:"Branding",
@@ -107,7 +111,7 @@ export default{
                     id: "1",
                     title: "Ecozean", 
                     img: Ecozean, 
-                    tags: ["Frontend","UX"],
+                    tags: ["Frontend","UX","UI"],
                     description: "Ecozean is a fiticous eco-friendly Island for combating the ocean pollution.",
                     link: "/Works/Ecozean"
                 },
@@ -123,7 +127,7 @@ export default{
                     id: "3",
                     title: "Sky Foodie",
                     img: SkyFoodie,
-                    tags: ["Frontend"],
+                    tags: ["Frontend","Web-App"],
                     description: "Sky Foodie is a Web Game Application that raises awareness choosing healthy eating.",
                     link: "/Works/SkyFoodie"
                 },
@@ -131,7 +135,7 @@ export default{
                     id: "4",
                     title: "Intro to Weiqi",
                     img: IntroToWeiqi,
-                    tags: ["Frontend"],
+                    tags: ["Frontend","Web-App"],
                     description: "Intro to Weiqi is a Web Application for people who are interested in learning in Weiqi (Go).",
                     link: "/Works/IntroWeiqi"
                 },
@@ -155,7 +159,7 @@ export default{
                     id: "7",
                     title: "Cafennie",
                     img: Cafennie,
-                    tags: ["UX","UI","App"],
+                    tags: ["UX","UI","Mob-App"],
                     description: "Cafennie is a local cafe that delivers people's favourite coffee and snacks to the corner of their houses. ",
                     link: "/Works/Cafennie"
                 },
@@ -163,7 +167,7 @@ export default{
                     id: "8",
                     title: "Meditime",
                     img: Meditime,
-                    tags: ["UX","UI","App"],
+                    tags: ["UX","UI","Mob-App"],
                     description: "Meditime is an app that keeps track of medications and reminders to take medication on time.",
                     link: "/Works/Meditime"
                 },

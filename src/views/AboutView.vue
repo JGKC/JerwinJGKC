@@ -12,9 +12,9 @@
 				<div class="col-span-5 md:col-span-3">
 					<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
 					<div class="lg:w-[60ch] mb-4">
-						I am currently a Student studying Interaction Design in Nanyang Polytechnic, speacialising in User Experience 
-						Design and Web Development. I enjoy the process of designing and coding websites and mobile applications. 
-						During my free time, I play games and do some little fun creative coding projects! 
+						I am currently a Graduate with a Diploma in Interaction Design from School of Design & Media, Nanyang Polytechnic.
+						I speacialise in User Experience Design and Web Development. I enjoy the process of designing and coding websites 
+						and mobile applications. During my free time, I play games and do some little fun creative coding projects! 
 					</div>
 					<div class="lg:w-[60ch] mb-2">
 						Here's a shortcut button to download my resume!
@@ -36,10 +36,13 @@
 		<div class="w-full max-w-[1440px] m-auto ">
 			<div class="w-[90%] m-auto grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div v-for="x in data" class="space-y-4">
-					<div class="text-[1.5em] font-bold font-['Montserrat'] uppercase">{{x.header}}</div>
+					<div class="text-[1.5em] font-bold font-['Montserrat'] uppercase">
+						<font-awesome-icon :icon="x.icon"/>
+						{{x.header}}
+					</div>
 					<div v-for="i in Object.keys(x.data).length">
 						
-						<div class="branchBox ml-auto border-l-[5px] border-[#20B2AA] p-4 bg-white font-['Quicksand']">
+						<div class="ml-auto border-l-[5px] border-[#20B2AA] p-4 bg-white font-['Quicksand'] rounded-[5px]">
 							<div class="font-bold text-[1.2em] leading-6 uppercase mb-1 font-['Montserrat']">{{ x.data[i-1].header }}</div>
 							<div>{{ x.data[i-1].subHeader }}</div>
 							<div>{{ x.data[i-1].year }}</div>
@@ -129,6 +132,7 @@ export default{
 		return{
 			data:{
 				workEXP:{
+					icon: "fa-solid fa-briefcase",
 					header:"Work Experience",
 					data:[
 						{
@@ -144,6 +148,7 @@ export default{
 					]
 				},
 				edu:{
+					icon: "fa-solid fa-school",
 					header:"Education",
 					data:[
 						{
@@ -159,6 +164,7 @@ export default{
 					]
 				},
 				cert:{
+					icon: "fa-solid fa-certificate",
 					header:"Certification",
 					data:[
 						{
@@ -169,6 +175,7 @@ export default{
 					]
 				},
 				skills:{
+					icon: "fa-solid fa-pen-ruler",
 					header:"Skillsets",
 					data:[
 						{
@@ -178,7 +185,7 @@ export default{
 						},
 						{
 							header:"Web Development",
-							subHeader:"Languages: HTML, CSS, JS, VueJS, PHP, Laravel, mySQL",
+							subHeader:"Languages/Frameworks: HTML, CSS, JS, VueJS, PHP, Laravel, mySQL",
 							year:"Softwares: VSCode, Dreamweaver",
 						},
 
