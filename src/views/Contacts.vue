@@ -37,9 +37,9 @@
 							<label for="subject" class="mb-1">Subject</label>
 							<select v-model="form.subject" name="subject" id="subject" required class="relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm">
 								<option value="" selected disabled>Please Select a Subject</option>
-								<option value="fluff">Just Saying Hi!!!</option>
-								<option value="work">Working Oppotunties</option>
-								<option value="enquires">Enquires</option>
+								<option value="JGKC CV - Saying Hi">Just Saying Hi!!!</option>
+								<option value="JGKC CV - Work Opportunity">Working Opportunity</option>
+								<option value="JGKC CV - Enquires">Enquires</option>
 							</select>
 						</div>
 						<div class="flex flex-col">
@@ -116,6 +116,13 @@ import TitleHead from '../components/TitleHead.vue'
 			}
 		},
 		methods:{
+			resetForm(){
+				this.form.name = ""
+				this.form.email = ""
+				this.form.subject = ""
+				this.form.message = ""
+				}
+			},
 			encode(data){
 				return Object.keys(data)
 				.map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
@@ -130,10 +137,14 @@ import TitleHead from '../components/TitleHead.vue'
 					body: this.encode({
 						'form-name':'contact',
 						...this.form
-					})
+					})	
 				})
-				.then(()=> console.log('successfully sent'))
+				.then(()=>
+					alert('successfully sent')
+				)
 				.catch((e)=> console.error(e))
+
+				resetForm();
 			}
 			// submitForm(ev){
 			// 	ev.preventDefault()
