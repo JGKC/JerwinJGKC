@@ -11,11 +11,16 @@
 			<div class="w-[90%] m-auto font-['Quicksand'] grid grid-cols-5 gap-10 justify-between items-center">
 				<div class="col-span-5 md:col-span-3">
 					<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
-					<div class="lg:w-[60ch] mb-4">
-						I am currently a Graduate with a Diploma in Interaction Design from School of Design & Media, Nanyang Polytechnic.
-						I speacialise in User Experience Design and Web Development. I enjoy the process of designing and coding websites 
-						and mobile applications. During my free time, I play games and do some little fun creative coding projects! 
+					<div class="mb-2">
+						A Graduate of Interaction Design from School of Design & Media, Nanyang Polytechnic.
+						Speacialise in User Experience Design and Web Development. 
 					</div>
+					<div class="mb-2">
+						I enjoy the process of designing and coding websites and mobile applications. 
+						During my free time, I play computer games and do some little fun creative coding projects! 
+						I even contributed to some FANDOM wikis
+					</div>	
+					
 					<div class="lg:w-[60ch] mb-2">
 						Here's a shortcut button to download my resume!
 					</div>
