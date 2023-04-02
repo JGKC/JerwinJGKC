@@ -51,6 +51,7 @@
 								Send Message!
 							</button>
 						</div>
+						<input type="hidden" name="contact" value="contact" />
 					</form>
 				</div>
 			</div>
