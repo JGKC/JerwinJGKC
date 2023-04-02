@@ -83,7 +83,7 @@ import RouterBtn from './RouterBtn.vue';
                 let works = Array.from(document.getElementsByClassName("worksCard"))
 
                 works.forEach(x =>{
-                    x.style.opacity = 0.65
+                    x.style.opacity = 0.8
                 })
 
                 let card = event.target.closest(".worksCard")

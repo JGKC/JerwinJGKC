@@ -1,19 +1,28 @@
 <template>
     <div class="w-full flex flex-col lg:hidden ">
         
-        <div class="w-full h-[80px] bg-white px-[20px] grid grid-cols-5 place-items-center z-10 gap-4 bk-shadow">
-                <RouterLink to="/" class="BotNavBtn ">
-                    <font-awesome-icon icon="fa-solid fa-house" size="xl"/>
-                    <div>Home</div>
+        <div class="w-full h-[80px] bg-white px-[20px] flex place-items-center justify-between z-10 gap-4 bk-shadow">
+                <RouterLink 
+                    v-for="item in nav"
+                    :to="item.to" 
+                    active-class="pointer-events-none bg-[#20B2AA] text-white mb-12"             
+                    :class="[this.$route.name === item.to.name
+                        ? 'BotNavBtn'
+                        : 'BotNavBtn'
+                    ]">
+                    <font-awesome-icon :icon="item.icon" size="xl"/>
+                    <div>{{item.name}}</div>
                 </RouterLink>
+
+            <!-- <RouterLink to="/" class="BotNavBtn">
+                <div class="navIcon"><font-awesome-icon icon="fa-solid fa-home" size="xl"/></div>
+                <div>Home</div>
+            </RouterLink>
+
             <RouterLink to="/About" class="BotNavBtn">
                 <div class="navIcon"><font-awesome-icon icon="fa-solid fa-user-tie" size="xl"/></div>
                 <div>About</div>
             </RouterLink>
-            
-            <div class="w-[60px] h-[60px] grid place-items-center">
-                <img src="../../assets/logo-green.svg" alt="logo">
-            </div>
 
             <RouterLink to="/Works" class="BotNavBtn">
                 <div class="navIcon"><font-awesome-icon icon="fa-solid fa-pen-ruler" size="xl"/></div>
@@ -23,7 +32,7 @@
             <RouterLink to="/Contacts" class="BotNavBtn">
                 <div class="navIcon"><font-awesome-icon icon="fa-solid fa-address-book" size="xl"/></div>
                 <div>Contacts</div>
-            </RouterLink>
+            </RouterLink> -->
         </div>
     </div>
 </template>
@@ -32,7 +41,28 @@
     export default{
         data(){
             return{
-                
+                nav:[
+                    {
+                        name:"Home",
+                        icon:"fa-solid fa-house",
+                        to:"/"
+                    },
+                    {
+                        name:"About",
+                        icon:"fa-solid fa-user-tie",
+                        to:"/About"
+                    },
+                    {
+                        name:"Works",
+                        icon:"fa-solid fa-pen-ruler",
+                        to:"/Works"
+                    },
+                    {
+                        name:"Contacts",
+                        icon:"fa-solid fa-address-book",
+                        to:"/Contacts"
+                    }
+                ]
             }
         }
     }
