@@ -139,15 +139,10 @@ import TitleHead from '../components/TitleHead.vue'
 						...this.form
 					})	
 				})
-				.then(()=>
-					console.log('successfully sent')
-				)
-				.catch((e)=> console.error(e))
+				.then(()=> console.log('successfully sent'))
+				.catch(e=> console.error(e))
 			}
-			// submitForm(ev){
-			// 	ev.preventDefault()
-			// 	JSON.stringify(this.form)
-			// }
+
 		}
 </script>
 
