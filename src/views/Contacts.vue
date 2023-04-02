@@ -140,7 +140,7 @@ import TitleHead from '../components/TitleHead.vue'
 					})	
 				})
 				.then(()=>
-					alert('successfully sent')
+					console.log('successfully sent')
 				)
 				.catch((e)=> console.error(e))
 
