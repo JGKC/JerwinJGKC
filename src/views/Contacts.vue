@@ -151,7 +151,6 @@ import TitleHead from '../components/TitleHead.vue'
 			// 	JSON.stringify(this.form)
 			// }
 		}
-	}
 </script>
 
 <style>
