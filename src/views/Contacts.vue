@@ -163,8 +163,7 @@ import TitleHead from '../components/TitleHead.vue'
 				})
 				.then(()=> console.log('successfully sent'))
 				.catch(e=> 
-					console.error(e),
-					this.errorMsg = e
+					console.error(e)
 				)
 
 				this.resetForm();
