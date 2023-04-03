@@ -9,24 +9,26 @@
 
         <section class="py-[80px] font-['Quicksand']">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
-                <div class="w-[90%] m-auto">
-                    <div class="mb-4 w-full md:w-[65ch] space-y-4">
-                        <div>
-                            SizGrill is a conceptual Restaurant that provides customers with grilled food.
-                            Our Customers can choose to grill their meal and we would provide the finest ingredients on the spot!
+                <div class="w-[90%] m-auto grid lg:grid-cols-5 justify-between gap-10">
+                    <div class="lg:col-span-3">
+                        <div class="mb-4 w-full space-y-4">
+                            <div>
+                                SizGrill is a conceptual Restaurant that provides customers with grilled food.
+                                Our Customers can choose to grill their meal and we would provide the finest ingredients on the spot!
+                            </div>
+                            <div>
+                                Our purpose is to give the customers the opportunities to grill their food together with a group of close ones, 
+                                having fun and exciting memories during the process. We aim to provide them with an enjoyable experience each time they visit us.     
+                            </div>
+                            <div>
+                                In this project, I used different design softwares to create a brand guide, logo and digital visuals.
+                            </div>
                         </div>
-                        <div>
-                            Our purpose is to give the customers the opportunities to grill their food together with a group of close ones, 
-                            having fun and exciting memories during the process. We aim to provide them with an enjoyable experience each time they visit us.     
-                        </div>
-                        <div>
-                            In this project, I used different design softwares to create a brand guide, logo and digital visuals.
-                        </div>
-                    </div>
 
-                    <div class="w-full md:w-[65ch] space-y-4">
+                    <div class="w-full space-y-4">
                         <div>Project Duration: Apr 2021 - Aug 2021</div>
                         <Softwares Ai Ps Xd></Softwares>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -63,9 +65,11 @@
                     </div>
 
                     <!-- Logos -->
-                    <div class="lg:order-1 col-span-1 space-y-8 grid grid-cols-2 items-center gap-8">
-                        <img src="@/assets/works/SizGrill/logo1.png" alt="SizGrill Logo" class="block">
-                        <img src="@/assets/works/SizGrill/logo.png" alt="SizGrill secondary Logo" class="block">
+                    <div class="lg:order-1 col-span-1 space-y-8 grid items-center gap-8">
+                        <div class="grid items-center gap-8 grid-cols-2 justify-center">
+                            <img src="@/assets/works/SizGrill/logo1.png" alt="SizGrill Logo" class="block col-span-1">
+                            <img src="@/assets/works/SizGrill/logo.png" alt="SizGrill secondary Logo" class="block col-span-1">
+                        </div>
                     </div>
                 </div>
                 

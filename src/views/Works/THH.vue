@@ -9,18 +9,20 @@
 
         <section class="py-[80px] font-['Quicksand']">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
-                <div class="w-[90%] m-auto">
-                    <div class="mb-4 w-full md:w-[65ch]">
-                        The Hidden Heritage is a non-profit organisation that provides readers with an informative
-                        guide for users who enjoys travelling around the heritage corners of Singapore that experienced
-                        as we go about our daily lives. 
-                    </div>
-                    <div class="mb-4 w-full md:w-[65ch]">
-                        In this project, I mainly use JavaScript for most of mouse interactions and PHP & mySQL for backend database.
-                    </div>
-                    <div class="w-full md:w-[65ch] space-y-4">
-                        <div>Project Duration: Oct 2021 - Feb 2022</div>
-                        <Softwares Xd Ai Ps VSCode HTML CSS JS PHP></Softwares>
+                <div class="w-[90%] m-auto grid lg:grid-cols-5  justify-between gap-10">
+                    <div class="col-span-3">
+                        <div class="mb-4 w-full">
+                            The Hidden Heritage is a non-profit organisation that provides readers with an informative
+                            guide for users who enjoys travelling around the heritage corners of Singapore that experienced
+                            as we go about our daily lives. 
+                        </div>
+                        <div class="mb-4 w-full">
+                            In this project, I mainly use JavaScript for most of mouse interactions and PHP & mySQL for backend database.
+                        </div>
+                        <div class="w-full space-y-4">
+                            <div>Project Duration: Oct 2021 - Feb 2022</div>
+                            <Softwares Xd Ai Ps VSCode HTML CSS JS PHP></Softwares>
+                        </div>
                     </div>
                 </div>
                 
@@ -53,16 +55,14 @@
                             <div>
                                 <div class="text-[1.5em] font-bold">Graphics in Logo</div>
                                 <div class="space-y-2">
-                                    <div>
-                                        There are 2 graphics in the logo: a building and a hawker.
-                                    </div>
+                                    <div>There are 2 graphics in the logo: a building and a hawker.</div>
                                     <div>
                                     The building represents Singapore Common Housing Estate, HDB Flats, and the hawker represents that Singapore 
                                     was once a Kampong with its unqiue heritage lefted behind.
                                     </div>
-                                    <div>
-                                        The hawker graphic was modelled after the <a href="https://goo.gl/maps/e4E842mi2BvsQh2g8" target="_blank" class="underline text-red-500 font-bold">statue located in Hougang Heritage Trail.</a>
-                                    </div>
+                                    <div>The hawker graphic was modelled after the 
+                                        <a href="https://goo.gl/maps/e4E842mi2BvsQh2g8" target="_blank" class="underline text-red-500 font-bold">
+                                        statue located in Hougang Heritage Trail.</a></div>
                                 </div>
                             </div>
                         </div>
@@ -70,8 +70,10 @@
 
                     <!-- Logos -->
                     <div class="lg:order-1 col-span-1 space-y-8">
-                        <img src="../../assets/works/THH/Logo_Color.svg" alt="THH Logo" class="block">
-                        <img src="../../assets/works/THH/Logo_BW.svg" alt="THH Logo" class="block">
+                        <div class="grid md:grid-cols-2 md:items-center gap-8 lg:grid-cols-1 lg:justify-center">
+                            <img src="../../assets/works/THH/Logo_Color.svg" alt="THH Logo" class="block">
+                            <img src="../../assets/works/THH/Logo_BW.svg" alt="THH Logo" class="block">
+                        </div>
                     </div>
                 </div>            
                 

@@ -6,17 +6,17 @@
 		<!-- section 2- Introduction -->
 		<section id="home02" class="py-[80px]">
 			<div class="w-full max-w-[1440px] m-auto">
-				<div class="w-[90%] m-auto grid grid-cols-1 md:grid-cols-2 justify-between flex-wrap  gap-10 items-center">
-					<div>
+				<div class="w-[90%] m-auto grid grid-cols-1 md:grid-cols-5 justify-between flex-wrap  gap-10 items-center">
+					<div class="col-span-3">
 						<div class="text-[2em] font-bold font-['Montserrat']">Hello, I'm Jerwin!</div>
-						<div class="w-full lg:w-[65ch] mb-4 font-[Quicksand]">
+						<div class="w-full mb-4 font-[Quicksand]">
 							Just graduated recently with Diploma in Interaction Design. 
 							I enjoy design and code websites and mobile applications. I believe that 
 							good designs bring the best expression of the products to the users.
 						</div>
 						<RouterBtn link="/About" cta="Learn More about Jerwin" class="md:w-[250px]"></RouterBtn>
 					</div>
-					<div>
+					<div class="col-span-2">
 						<div class="w-[80%] m-auto aspect-square overflow-hidden rounded-[100%] shadow-md shadow-green-300">
 							<img src="@/assets/Jerwin/joe.jpg" alt="Jerwin" class="-top-8">
 						</div>

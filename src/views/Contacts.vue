@@ -10,7 +10,7 @@
 			<div class="w-full max-w-[1440px] m-auto">
 				<div class="w-[90%] m-auto font-['Quicksand'] grid grid-cols-1 lg:grid-cols-2 gap-20 justify-between items-center">
 						
-					<div class="w-fit">
+					<div class="w-full lg:w-fit m-auto">
 						<div class="text-[2em] font-['Montserrat'] font-bold uppercase">Happy to hear from you!</div>
 						<div class="bg-yellow-200 p-5 rounded-[5px] text-[1em] font-[quicksand] font-medium">
 							<div class="font-medium">
