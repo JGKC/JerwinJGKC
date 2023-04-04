@@ -54,16 +54,16 @@ const router = createRouter({
       name: 'asian completionlist',
       component: () => import('../views/Works/AsianCompletionist.vue')
     },
-    {
-      path: '/works/cafennie',
-      name: 'cafennie',
-      component: () => import('../views/Works/Cafennie.vue')
-    },
-    {
-      path: '/works/meditime',
-      name: 'meditime',
-      component: () => import('../views/Works/Meditime.vue')
-    },
+    // {
+    //   path: '/works/cafennie',
+    //   name: 'cafennie',
+    //   component: () => import('../views/Works/Cafennie.vue')
+    // },
+    // {
+    //   path: '/works/meditime',
+    //   name: 'meditime',
+    //   component: () => import('../views/Works/Meditime.vue')
+    // },
     {
       path: '/works/iwp',
       name: 'iwp',

@@ -91,18 +91,6 @@
             </div>
         </section>
 
-        <section class=" bg-teal-100">
-            <div class="w-full max-w-[1440px] m-auto">
-                <div class="w-[90%] m-auto">
-                    <div class="flex justify-between ">
-                        <router-link to="/works/IntroWeiqi" class="block p-4 text-black"><font-awesome-icon icon="fa-solid fa-chevron-left" /> Intro To Weiqi</router-link>
-                        <router-link to="/works" class="p-4 hidden md:block text-black"><font-awesome-icon icon="fa-solid fa-pen-ruler" /> Return to Works</router-link>
-                        <router-link to="/works/AsianCompletionist" class="block p-4 text-black">Asian Completionist <font-awesome-icon icon="fa-solid fa-chevron-right" /></router-link>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </div>
 
 </template>

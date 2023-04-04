@@ -125,13 +125,6 @@
             </div>
         </section>
 
-        <ProjectFooter
-            PrevLink="Meditime"
-            PrevName="Meditime"
-            NextLink="THH"
-            NextName="THH"
-        ></ProjectFooter>
-
         <div class="bg-[#000000a0] z-[100000] fixed top-0 left-0 w-full h-[100vh] grid place-content-center" v-show="imgExpand">
             <div @click="ImageClose" class="cursor-pointer"><font-awesome-icon icon="fa-solid fa-times" size="2xl"/></div>
             <div class="aspect-video w-[60rem]">
