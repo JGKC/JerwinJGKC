@@ -215,7 +215,7 @@ export default{
 				resume:{
 					img:"https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
 					icon:"fa-solid fa-file-pdf",
-					header:"Resume 2022",
+					header:"Resume 2023",
 					link:Resume,
 				},
 				portfolio:{
