@@ -12,9 +12,11 @@
                 <div class="w-[90%] m-auto grid lg:grid-cols-5 justify-between gap-10">
                     <div class="lg:col-span-3">
                         <div class="mb-4 w-full">
-                            The Hidden Heritage is a non-profit organisation that provides readers with an informative
-                            guide for users who enjoys travelling around the heritage corners of Singapore that experienced
-                            as we go about our daily lives. 
+                            Internship Portal is a Conceptual Web Application created with Vue and Laravel. 
+                            It purpose is to bring better Quality of Life to the School Staff when managing 
+                            Internship related workload. This Web App allows the staff to access, upload, 
+                            modify and remove data from the database. As well as allowing students to submit 
+                            documents and completing forms/assessment.
                         </div>
                         <div class="mb-4 w-full">
                             In this project, I mainly use JavaScript for most of mouse interactions and PHP & mySQL for backend database.

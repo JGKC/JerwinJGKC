@@ -14,7 +14,7 @@
 						<div class="text-[2em] font-['Montserrat'] font-bold uppercase">Happy to hear from you!</div>
 						<div class="bg-yellow-200 p-5 rounded-[5px] text-[1em] font-[quicksand] font-medium">
 							<div class="font-medium">
-								<b>For Official Collaboration and/or Busniess Offers:</b><br> 
+								<b>For Official Collaboration and/or Business Offers:</b><br> 
 								Please contact me through the Contact Form or Email. <br>
 								Estimated Reply takes 3-5 Working Days
 							</div>
