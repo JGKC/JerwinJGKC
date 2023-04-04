@@ -163,14 +163,14 @@ export default{
                     description: "Asian Completionist is a conceptual book design based a Malaysian Artist, Namewee.",
                     link: "/Works/AsianCompletionist"
                 },
-                {
-                    id: "8",
-                    title: "NutriGrade Poster",
-                    img: NutriGrade,
-                    tags: ["Graphic"],
-                    description: "COMING VERY SOON",
-                    link: "/Works/NutriGrade"
-                },
+                // {
+                //     id: "8",
+                //     title: "NutriGrade Poster",
+                //     img: NutriGrade,
+                //     tags: ["Graphic"],
+                //     description: "COMING VERY SOON",
+                //     link: "/Works/NutriGrade"
+                // },
                 // {
                 //     id: "7",
                 //     title: "Cafennie",

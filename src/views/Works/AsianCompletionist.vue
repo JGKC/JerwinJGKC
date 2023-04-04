@@ -66,12 +66,12 @@ export default{
             heroImg:Preview,
             gallery:[
                 {
-                    src: Image1,
-                    alt: "content view"
-                },
-                {
                     src: Preview,
                     alt: "preview image"
+                },
+                {
+                    src: Image1,
+                    alt: "content view"
                 },
             ],
         }

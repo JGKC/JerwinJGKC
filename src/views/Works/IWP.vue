@@ -62,7 +62,7 @@
                     <!-- Logos -->
                     <div class="lg:order-1 col-span-1 space-y-8">
                         <div class="grid md:grid-cols-2 md:items-center gap-8 lg:grid-cols-1 lg:justify-center">
-                            <img src="../../assets/works/ITP/Logo.svg" alt="THH Logo" class="block">
+                            <img src="../../assets/works/ITP/logo.svg" alt="THH Logo" class="block">
                         </div>
                     </div>
                 </div>            

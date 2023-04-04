@@ -12,15 +12,12 @@
                 <div class="w-[90%] m-auto grid lg:grid-cols-5 justify-between gap-10">
                     <div class="lg:col-span-3">
                         <div class="mb-4 w-full">
-                            Asian Completionist is a conceptual book design based a Malaysian Artist, Namewee.
-                            At the time of creating this book design, Namewee had completed 7 "Asian" Ablums.
-                            When he decided to end the "Asian" Ablum series, I decided to make this book design 
-                            to celebrate the achievements he have gained over the past few years and his completion to this series.
+                            NutriGrade Poster
                         </div>
 
                         <div class="w-full space-y-4">
-                            <div>Project Duration: Oct 2021 - Feb 2022</div>
-                            <Softwares Id Ps Ai></Softwares>
+                            <div>Project Duration: Oct 2022 - Feb 2023</div>
+                            <Softwares Ai Xd></Softwares>
                         </div>
                     </div>
                 </div>
@@ -65,10 +62,6 @@ export default{
         return{
             heroImg:Preview,
             gallery:[
-                {
-                    src: Image1,
-                    alt: "content view"
-                },
                 {
                     src: Preview,
                     alt: "preview image"
