@@ -133,10 +133,7 @@ export default{
                     src: Image3,
                     alt: "image"
                 },
-                {
-                    src: Image4,
-                    alt: "image"
-                },
+
             ]
         }
     }

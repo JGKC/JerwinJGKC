@@ -172,10 +172,6 @@ export default{
                     src: Image3,
                     alt: "Image: Mockups"
                 },
-                {
-                    src: Image4,
-                    alt: "Image: Mockups 2"
-                },
             ],
             acknowlegdement:[
                 {

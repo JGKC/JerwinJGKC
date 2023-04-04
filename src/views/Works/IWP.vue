@@ -14,15 +14,15 @@
                         <div class="mb-4 w-full">
                             Internship Portal is a Conceptual Web Application created with Vue and Laravel. 
                             It purpose is to bring better Quality of Life to the School Staff when managing 
-                            Internship related workload. This Web App allows the staff to access, upload, 
+                            Internship related workload. 
+                        </div>
+                        <div class="mb-4 w-full">
+                            This Web App allows the staff to access, upload, 
                             modify and remove data from the database. As well as allowing students to submit 
                             documents and completing forms/assessment.
                         </div>
-                        <div class="mb-4 w-full">
-                            In this project, I mainly use JavaScript for most of mouse interactions and PHP & mySQL for backend database.
-                        </div>
                         <div class="w-full space-y-4">
-                            <div>Project Duration: Oct 2021 - Feb 2022</div>
+                            <div>Project Duration: Oct 2022 - Feb 2023</div>
                             <Softwares Xd Ai VSCode HTML CSS JS PHP Laravel Vue></Softwares>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
             </div>
         </section>
 
-        <section class="py-[80px] bg-red-200 font-[Quicksand]">
+        <section class="py-[80px] bg-blue-200 font-[Quicksand]">
             <div class="w-full max-w-[1440px] m-auto flex flex-col">
                 <div class="w-[90%] m-auto grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
 
@@ -43,31 +43,17 @@
                         <div class="text-[2em] mb-8 font-bold font-[Montserrat] uppercase">Branding Rationale</div>
                         <div class="flex flex-col space-y-4">
                             <div>
-                                <div class="text-[1.5em] font-bold">Red Coloured Design</div>
-                                <div class="space-y-2">
-                                    <div>
-                                        The overall design used different shades of red from grahics to texts. This signifies to the Samsui Women
-                                        or 'red headscarf' from literal translation, a group of Chinese female immigrants came from China to Malaya
-                                        and Singapore for Construction and industrial jobs in 1920s - 1940s.
-                                    </div>
-                                    <div>
-                                        They have built many buildings during Singapore's early days and left an impact to Singapore's History.
-                                        Buildings built by the Samsui Women are still standing today.
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div>
                                 <div class="text-[1.5em] font-bold">Graphics in Logo</div>
                                 <div class="space-y-2">
-                                    <div>There are 2 graphics in the logo: a building and a hawker.</div>
                                     <div>
-                                    The building represents Singapore Common Housing Estate, HDB Flats, and the hawker represents that Singapore 
-                                    was once a Kampong with its unqiue heritage lefted behind.
+                                        Internship involves at least 3 parties, student, school and industry. I make use of 3 letters with distinct colours, each representing one party.
                                     </div>
-                                    <div>The hawker graphic was modelled after the 
-                                        <a href="https://goo.gl/maps/e4E842mi2BvsQh2g8" target="_blank" class="underline text-red-500 font-bold">
-                                        statue located in Hougang Heritage Trail.</a></div>
+                                    <div>
+                                        “I for Industry, T for Teachers, P for Pupil”
+                                    </div>
+                                    <div>
+                                        No matter how you interpret this, basically, 3 parties, 3 letters, 3 colours.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +62,7 @@
                     <!-- Logos -->
                     <div class="lg:order-1 col-span-1 space-y-8">
                         <div class="grid md:grid-cols-2 md:items-center gap-8 lg:grid-cols-1 lg:justify-center">
-                            <img src="../../assets/works/THH/Logo_Color.svg" alt="THH Logo" class="block">
-                            <img src="../../assets/works/THH/Logo_BW.svg" alt="THH Logo" class="block">
+                            <img src="../../assets/works/ITP/Logo.svg" alt="THH Logo" class="block">
                         </div>
                     </div>
                 </div>            
@@ -112,9 +97,9 @@ import Softwares from '../../components/works/Softwares.vue';
 
 import Preview from "@/assets/works/ITP/Preview.png"
 import Image1 from "@/assets/works/ITP/image1.png"
-import Image2 from "@/assets/works/THH/image2.png"
-import Image3 from "@/assets/works/THH/image3.png"
-import Image4 from "@/assets/works/THH/image4.png"
+import Image2 from "@/assets/works/ITP/image2.png"
+import Image3 from "@/assets/works/ITP/image3.png"
+import Image4 from "@/assets/works/ITP/image4.png"
 
 
 
@@ -137,10 +122,6 @@ export default{
                 },
                 {
                     src: Image3,
-                    alt: "image"
-                },
-                {
-                    src: Image4,
                     alt: "image"
                 },
             ]
