@@ -62,6 +62,7 @@ import Softwares from '../../components/works/Softwares.vue';
 
 import Preview from '@/assets/works/IntroToWeiqi/Preview.png'
 import Image1 from '@/assets/works/IntroToWeiqi/image1.png'
+import Image2 from '@/assets/works/IntroToWeiqi/image2.png'
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
@@ -77,7 +78,7 @@ export default{
                     alt: "overview image"
                 },
                 {
-                    src: Preview,
+                    src: Image2,
                     alt: "preview image"
                 },
             ]

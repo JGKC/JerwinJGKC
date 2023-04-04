@@ -104,7 +104,7 @@ import Preview from "@/assets/works/SizGrill/Preview.png"
 import Image1 from "@/assets/works/SizGrill/image1.png"
 import Image2 from "@/assets/works/SizGrill/image2.png"
 import Image3 from "@/assets/works/SizGrill/image3.png"
-import Image4 from "@/assets/works/SizGrill/image4.png"
+// import Image4 from "@/assets/works/SizGrill/image4.png"
 
 export default{
     components: { TitleHead, ProjectHero, ProjectInfo, Softwares },
@@ -116,19 +116,15 @@ export default{
             heroImg:Preview,
             gallery:[
                 {
+                    src: Preview,
+                    alt: "image"
+                },
+                {
                     src: Image1,
                     alt: "image"
                 },
                 {
                     src: Image2,
-                    alt: "image"
-                },
-                {
-                    src: Image4,
-                    alt: "image"
-                },
-                {
-                    src: Preview,
                     alt: "image"
                 },
                 {

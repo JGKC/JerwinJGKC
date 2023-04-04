@@ -76,7 +76,7 @@ export default{
                     alt: "overview image"
                 },
                 {
-                    src: Preview,
+                    src: Image2,
                     alt: "preview image"
                 },
             ]
