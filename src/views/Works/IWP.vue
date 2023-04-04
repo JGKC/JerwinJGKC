@@ -106,7 +106,7 @@ import Image3 from "@/assets/works/ITP/image3.png"
 export default{
     components: { TitleHead, ProjectInfo, ProjectHero, Softwares },
     mounted(){
-        document.title = 'The Hidden Heritage | JerwinJGKC'
+        document.title = 'SDM Internship Portal | JerwinJGKC'
     },
     data(){
         return{
