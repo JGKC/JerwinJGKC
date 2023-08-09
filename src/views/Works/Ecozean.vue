@@ -104,6 +104,7 @@
             <div class="w-full max-w-[1440px] m-auto">
                 <div class="w-[90%] m-auto">
                     <div class="text-[1.5em] lg:text-[2em] font-bold font-['Montserrat'] text-center">ACKNOWLEDGEMENT</div>
+                    <div class="text-center font-['Quicksand']">This is a Group Project. Special thanks to the followings' hard work:</div>
                     <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 lg:grid-cols-3 lg:grid-rows-auto">
                         <div v-for="item in acknowlegdement">
                             <div class="rounded-[5px] bg-green-100 p-8 space-y-4">

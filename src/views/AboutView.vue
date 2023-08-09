@@ -141,6 +141,11 @@ export default{
 					header:"Work Experience",
 					data:[
 						{
+							header:"Photoplay Pte Ltd",
+							subHeader:"Photographer Assistant",
+							year:"Part-time, 2023",
+						},
+						{
 							header:"Pixelsquad Pte Ltd",
 							subHeader:"Junior Developer Intern",
 							year:"Internship, 2022",
@@ -184,14 +189,19 @@ export default{
 					header:"Skillsets",
 					data:[
 						{
+							header:"Media Design",
+							subHeader:"Tech Skills: Photography, Videography",
+							year:"Softwares: Adobe Ps, Lr, Pr",
+						},
+						{
 							header:"UI/UX Design",
 							subHeader:"Tech Skills: User Research, Design Thinking, Prototyping",
-							year:"Softwares: Ps, Ai, Id, Xd, Pr",
+							year:"Softwares: Adobe Ps, Ai, Id, Xd, Figma",
 						},
 						{
 							header:"Web Development",
 							subHeader:"Languages/Frameworks: HTML, CSS, JS, VueJS, PHP, Laravel, mySQL",
-							year:"Softwares: VSCode, Dreamweaver",
+							year:"Softwares: VSCode, Adobe Dreamweaver",
 						},
 
 					]
