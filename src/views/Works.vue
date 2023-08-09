@@ -26,6 +26,7 @@
 
                 
                 <!-- Cards -->
+                <div class="w-[90%] mx-auto my-[20px] font-bold text-[1.8em] font-[Montserrat]">YEAR 2020-2023</div>
                 <div class="w-[90%] mx-auto my-[20px] grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-auto">
                     <WorksCard 
                         v-for="work in works"
