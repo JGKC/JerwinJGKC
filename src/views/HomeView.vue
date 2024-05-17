@@ -200,7 +200,7 @@ export default{
 				},
 				{
 					icon:		"fa-brands fa-twitter",
-					link:		"https://twitter.com/Jerwin_JGKC"
+					link:		"https://twitter.com/JGKC_Design"
 				},
 			],
 
