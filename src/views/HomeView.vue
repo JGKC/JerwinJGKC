@@ -14,6 +14,11 @@
 							I enjoy design and code websites and mobile applications. I believe that 
 							good designs bring the best expression of the products to the users.
 						</div>
+						<!-- <div class="w-full mb-4 font-[Quicksand]">
+							Just ORD'd from NS! OWADIO!<br>Graduated with a Diploma in Interaction Design (NYP 2023), 
+							I continue to pursue in Creative Coding! I believe that good designs 
+							bring the best expression of the products to the users.
+						</div> -->
 						<RouterBtn link="/About" cta="Learn More about Jerwin" class="md:w-[250px]"></RouterBtn>
 					</div>
 					<div class="col-span-2">
